@@ -1,8 +1,6 @@
 import React from "react";
 import { PrimaryButton } from "../components/button";
 import { xgArrow, xgFace, xgInsta, xgLink, xgLogo2 } from "../../assets/index";
-import xgIntersect from "../../assets/xg_intersect1.svg";
-import xgIntersect2 from "../../assets/xg_intersect1.svg";
 
 const Footer = () => {
   return (
@@ -27,10 +25,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="absolute bottom-0 items-center justify-center w-full flex">
-            <img src={xgIntersect} alt="" className="h-[81px]" />
-            <img src={xgIntersect2} alt="" className="h-[81px]" />
-          </div>
+    
         </div>
       </div>
 
