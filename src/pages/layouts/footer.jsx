@@ -1,11 +1,13 @@
 import React from "react";
 import { PrimaryButton } from "../components/button";
 import {
-  xgArrow,
-  xgFace,
-  xgInsta,
+    xgArrow,
+    xgFace,
+    xgInsta,
+  xgIntersect,
   xgIntersect2,
   xgLink,
+  xgLogo,
   xgLogo2,
 } from "../../assets";
 
@@ -33,6 +35,7 @@ const Footer = () => {
           </div>
 
           <div className="absolute bottom-0 items-center justify-center w-full flex">
+            <img src={xgIntersect} alt="" className="h-[81px]" />
             <img src={xgIntersect2} alt="" className="h-[81px]" />
           </div>
         </div>
@@ -63,10 +66,7 @@ const Footer = () => {
           </div>
 
           <div className="mt-4">
-            <span className="flex gap-3 items-center">
-              <h2 className="text-[25px] font-[700]">Overview </h2>
-              <img src={xgArrow} alt="" className="w-[24px] h-[34px]" />
-            </span>
+            <span className="flex gap-3 items-center"><h2 className="text-[25px] font-[700]">Overview </h2><img src={xgArrow} alt="" className="w-[24px] h-[34px]" /></span>
             <div className="text-[20px] space-y-4 font-[700] mt-4">
               <li>About Xogen</li>
               <li>What we do</li>
@@ -76,10 +76,7 @@ const Footer = () => {
           </div>
 
           <div className="mt-4">
-            <span className="flex gap-3 items-center">
-              <h2 className="text-[25px] font-[700]">Documentation </h2>
-              <img src={xgArrow} alt="" className="w-[24px] h-[34px]" />
-            </span>
+          <span className="flex gap-3 items-center"><h2 className="text-[25px] font-[700]">Documentation </h2><img src={xgArrow} alt="" className="w-[24px] h-[34px]" /></span>
             <div className="text-[20px] space-y-4 font-[700] mt-4">
               <li>Privacy</li>
               <li>Cookies</li>
@@ -91,9 +88,7 @@ const Footer = () => {
       </div>
 
       <div className="border border-t-[#000000] py-6 pb-12 mt-12 text-center">
-        <p className="text-[20px]">
-          © Copyright 2024 | Company registration No. 1234567
-        </p>
+        <p className="text-[20px]">© Copyright 2024 | Company registration No. 1234567</p>
       </div>
     </div>
   );
