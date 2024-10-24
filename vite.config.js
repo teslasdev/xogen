@@ -3,10 +3,9 @@ import { defineConfig } from "vite";
 import svgr from "vite-plugin-svgr";
 
 export default defineConfig({
-  plugins: [svgr(), react()],
+  plugins: [react() , svgr(), ],
   resolve: {
     alias: {
-      "./runtimeConfig": "./runtimeConfig.browser",
       "@": "/src",
     },
   },
