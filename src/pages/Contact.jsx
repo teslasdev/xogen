@@ -35,15 +35,15 @@ const Contact = () => {
     },
   ];
   return (
-    <div className="max-w-[1425px] mx-auto">
-      <div className="w-full flex flex-col min-h-[700px] justify-center items-center">
-        <img src={xgBanner3} alt="Banner" className="h-[103px] w-full" />
-        <div className="w-[900px] text-center mt-6 flex flex-col justify-center items-center">
-          <h3 className="text-[90px] font-[400] leading-[105.48px]">
-            Contact Us
-          </h3>
+    <div className="px-6 lg:px-0 max-w-[1440px] mx-auto">
+    <div className="w-full flex flex-col lg:min-h-[700px] justify-center items-center">
+      <img src={xgBanner3} alt="Banner" className="lg:h-[103px] w-full" />
+      <div className="lg:w-[950px] text-center mt-6 flex flex-col justify-center items-center">
+        <h3 className="lg:text-[95px] text-[45px] font-[400] leading-[105.48px]">
+          Contact Us
+        </h3>
 
-          <p className="font-[400] text-[#120024] text-[24px]">
+        <p className="font-[400] text-[#120024] lg:text-[24px]">
             We’re here to help you explore the power of AI and how it can
             transform your business. Whether you have questions about our
             solutions, need assistance, or want to discuss how we can tailor our
@@ -52,22 +52,22 @@ const Contact = () => {
         </div>
       </div>
 
-      <hr />
+      <hr className="mt-6" />
 
       <div className="py-12 flex flex-col gap-12 justify-center items-center">
-        <div className="w-[80%]">
+        <div className="md:w-[80%] w-[95%]">
           <div>
             <p className="text-[20px] pb-2 font-[500]">Name</p>
           </div>
-          <div className="flex items-center justify-between">
-            <div className="w-[491px] h-[81px] border-[0.35px] border-[#00000050] rounded-[5.91px]">
+          <div className="flex items-center gap-4 justify-between">
+            <div className="w-[491px] lg:h-[81px] h-[61px] border-[0.35px] border-[#00000050] rounded-[5.91px]">
               <input
                 type="text"
                 className="border-none outline-none h-full w-full px-4 text-[18px] bg-transparent"
                 placeholder="First Name"
               />
             </div>
-            <div className="w-[491px] h-[81px] border-[0.35px] border-[#00000050] rounded-[5.91px]">
+            <div className="w-[491px] lg:h-[81px] h-[61px] border-[0.35px] border-[#00000050] rounded-[5.91px]">
               <input
                 type="text"
                 className="border-none outline-none h-full w-full px-4 text-[18px] bg-transparent"
@@ -77,12 +77,12 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="w-[80%]">
+        <div className="md:w-[80%] w-[95%]">
           <div>
             <p className="text-[20px] pb-2 font-[500]">Email Address</p>
           </div>
           <div className="flex items-center justify-between">
-            <div className="w-full h-[81px] border-[0.35px] border-[#00000050] rounded-[5.91px]">
+            <div className="w-full lg:h-[81px] h-[61px] border-[0.35px] border-[#00000050] rounded-[5.91px]">
               <input
                 type="text"
                 className="border-none outline-none h-full w-full px-4 text-[18px] bg-transparent"
@@ -92,14 +92,14 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="w-[80%]">
+        <div className="md:w-[80%] w-[95%]">
           <div>
             <p className="text-[20px] pb-2 font-[500]">
               How can Xogen help you?
             </p>
           </div>
           <div className="flex items-center justify-between">
-            <div className="w-full h-[81px] flex items-center border-[0.35px] pr-4 border-[#00000050] rounded-[5.91px]">
+            <div className="w-full lg:h-[81px] h-[61px] flex items-center border-[0.35px] pr-4 border-[#00000050] rounded-[5.91px]">
               <select className="w-full h-full text-[20px] px-4 border-none outline-none bg-transparent">
                 <option>Service enquiry</option>
               </select>
@@ -107,7 +107,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="w-[80%]">
+        <div className="md:w-[80%] w-[95%]">
           <div>
             <p className="text-[20px] pb-2 font-[500]">Comment</p>
           </div>
@@ -128,15 +128,15 @@ const Contact = () => {
           <div key={index} className="border-b border-gray-300">
             <button
               onClick={() => handleToggle(index)}
-              className="w-full text-[30px] font-[600] flex justify-between items-center py-4 text-left text-lg  text-gray-800 focus:outline-none"
+              className="w-full lg:text-[30px] text-[20px] font-[600] flex justify-between items-center py-4 text-left text-lg  text-gray-800 focus:outline-none"
             >
               {item.title}
-              <span className="text-xl border h-[50px] w-[50px] flex justify-center items-center rounded-full">
+              <span className="text-xl border md:h-[50px] md:w-[50px] w-[25px] h-[25px] flex justify-center items-center rounded-full">
                 {activeIndex === index ? "-" : "+"}
               </span>
             </button>
             {activeIndex === index && (
-              <div className="px-4 pb-4 text-[20px] text-gray-600">
+              <div className="lg:px-4 px-2 pb-4 lg:text-[20px] text-gray-600">
                 <p>{item.content}</p>
               </div>
             )}
