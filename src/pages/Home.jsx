@@ -1,12 +1,26 @@
 import React from "react";
-import { xgBanner, xgDiscover } from "../assets";
+import {
+  xgAi,
+  xgAnalystics,
+  xgAuto,
+  xgBanner,
+  xgCustomer1,
+  xgCustomer2,
+  xgCustomer3,
+  xgDiscover,
+  xgSecurity,
+} from "../assets";
 import { PrimaryButton } from "./components/button";
 
 const Home = () => {
   return (
     <div className="px-6 lg:px-0 md:max-w-[1440px] mx-auto">
       <div className="w-full flex flex-col lg:min-h-[1000px] justify-center items-center">
-        <img src={xgBanner} alt="Banner" className="lg:h-[432px] lg:w-[630px]" />
+        <img
+          src={xgBanner}
+          alt="Banner"
+          className="lg:h-[332px] rounded-[10px] lg:w-[630px]"
+        />
         <div className="lg:w-[900px] text-center flex flex-col justify-center items-center">
           <h3 className="lg:text-[90px] md:text-[60px] text-[25px] font-[400] lg:leading-[105.48px]">
             Leading AI Solutions for
@@ -28,7 +42,9 @@ const Home = () => {
 
       {/* Customer */}
       <div className="md:pt-0 pt-6">
-        <h3 className="lg:text-[45px] text-[20px] text-center md:text-start font-[700]">Our Customers</h3>
+        <h3 className="lg:text-[45px] text-[20px] text-center md:text-start font-[700]">
+          Our Customers
+        </h3>
         <div className="w-full flex flex-wrap justify-between mt-4 gap-6">
           <div className="md:w-[176px] w-[130px] h-[50px] bg-[#eee]"></div>
           <div className="md:w-[176px] w-[130px] h-[50px] bg-[#eee]"></div>
@@ -40,8 +56,16 @@ const Home = () => {
       {/* Features */}
       <div className="flex justify-between gap-12 flex-wrap py-32">
         <div className="md:w-[45%] w-full">
-          <div className="h-[288px] bg-[#eee] rounded-[10px] w-full"></div>
-          <h2 className="lg:mt-0 mt-4 lg:text-[50px] text-[25px] font-[700]">AI-Driven Automation</h2>
+          <div className="h-[288px] bg-[#eee] rounded-[10px] w-full">
+            <img
+              src={xgAuto}
+              alt="Banner"
+              className="w-full h-full rounded-[10px]"
+            />
+          </div>
+          <h2 className="lg:mt-0 mt-4 lg:text-[50px] text-[25px] font-[700]">
+            AI-Driven Automation
+          </h2>
           <p className="lg:lg:text-[25px]">
             Streamline your workflows with intelligent automation that reduces
             errors and maximizes efficiency, allowing your team to focus on
@@ -49,8 +73,16 @@ const Home = () => {
           </p>
         </div>
         <div className="md:w-[45%] w-full">
-          <div className="h-[288px] bg-[#eee] rounded-[10px] w-full"></div>
-          <h2 className="lg:mt-0 mt-4 lg:text-[50px] text-[25px] font-[700]">Advanced Data Analytics</h2>
+          <div className="h-[288px] bg-[#eee] rounded-[10px] w-full">
+            <img
+              src={xgAnalystics}
+              alt="Banner"
+              className="w-full h-full rounded-[10px]"
+            />
+          </div>
+          <h2 className="lg:mt-0 mt-4 lg:text-[50px] text-[25px] font-[700]">
+            Advanced Data Analytics
+          </h2>
           <p className="lg:text-[25px]">
             Transform raw data into powerful insights. Xogen's AI analyzes your
             data to uncover trends, forecast outcomes, and guide strategic
@@ -59,8 +91,16 @@ const Home = () => {
         </div>
 
         <div className="md:w-[45%] w-full">
-          <div className="h-[288px] bg-[#eee] rounded-[10px] w-full"></div>
-          <h2 className="lg:mt-0 mt-4 lg:text-[50px] text-[25px] font-[700]">Custom AI Development</h2>
+          <div className="h-[288px] bg-[#eee] rounded-[10px] w-full">
+            <img
+              src={xgAi}
+              alt="Banner"
+              className="w-full h-full rounded-[10px]"
+            />
+          </div>
+          <h2 className="lg:mt-0 mt-4 lg:text-[50px] text-[25px] font-[700]">
+            Custom AI Development
+          </h2>
           <p className="lg:text-[25px]">
             Our tailor-made AI solutions are designed to meet your unique
             business needs, delivering innovation that scales with your growth.
@@ -68,8 +108,16 @@ const Home = () => {
         </div>
 
         <div className="md:w-[45%] w-full">
-          <div className="h-[288px] bg-[#eee] rounded-[10px] w-full"></div>
-          <h2 className="lg:mt-0 mt-4 lg:text-[50px] text-[25px] font-[700]">AI-Powered Security</h2>
+          <div className="h-[288px] bg-[#eee] rounded-[10px] w-full">
+            <img
+              src={xgSecurity}
+              alt="Banner"
+              className="w-full h-full rounded-[10px]"
+            />
+          </div>
+          <h2 className="lg:mt-0 mt-4 lg:text-[50px] text-[25px] font-[700]">
+            AI-Powered Security
+          </h2>
           <p className="lg:text-[25px]">
             Safeguard your business with AI that detects and prevents threats,
             ensuring transparency and protection.
@@ -79,7 +127,13 @@ const Home = () => {
 
       {/*  */}
       <div className="flex justify-center items-center flex-wrap py-24">
-        <div className="h-[262px] bg-[#eee] rounded-[10px] w-full"></div>
+        <div className="h-[362px] bg-[#eee] rounded-[10px] w-full">
+          <img
+            src={xgBanner}
+            alt="Banner"
+            className="w-full h-full rounded-[10px] object-cover object-top"
+          />
+        </div>
         <div className="flex items-center flex-wrap justify-center gap-2 py-6">
           <h2 className="lg:mt-0 mt-4 lg:text-[62px] text-[31px] font-[600] lg:leading-[105.48px]">
             Simplifying
@@ -101,7 +155,13 @@ const Home = () => {
         <h3 className="text-[45px] font-[700]">What our clients are saying</h3>
         <div className="w-full flex justify-between mt-4 flex-wrap gap-6">
           <div className="lg:w-[386px]">
-            <div className="h-[320px] bg-[#eee] rounded-[10px] w-full"></div>
+            <div className="h-[320px] bg-[#eee] rounded-[10px] w-full">
+              <img
+                src={xgCustomer1}
+                alt="Banner"
+                className="w-full h-full rounded-[10px]"
+              />
+            </div>
             <h2 className="lg:mt-0 mt-4 lg:text-[40px] text-[20px] font-[700]">
               Xogen transformed our workflow.
             </h2>
@@ -114,7 +174,13 @@ const Home = () => {
             </h2>
           </div>
           <div className="lg:w-[386px]">
-            <div className="h-[320px] bg-[#eee] rounded-[10px] w-full"></div>
+            <div className="h-[320px] bg-[#eee] rounded-[10px] w-full">
+              <img
+                src={xgCustomer2}
+                alt="Banner"
+                className="w-full h-full rounded-[10px]"
+              />
+            </div>
             <h2 className="lg:mt-0 mt-4 lg:text-[40px] text-[20px] font-[700]">
               Insightful and user-friendly.
             </h2>
@@ -128,7 +194,13 @@ const Home = () => {
           </div>
 
           <div className="lg:w-[386px]">
-            <div className="h-[320px] bg-[#eee] rounded-[10px] w-full"></div>
+            <div className="h-[320px] bg-[#eee] rounded-[10px] w-full">
+              <img
+                src={xgCustomer3}
+                alt="Banner"
+                className="w-full h-full rounded-[10px]"
+              />
+            </div>
             <h2 className="lg:mt-0 mt-4 lg:text-[40px] text-[20px] font-[700]">
               Tailored AI solutions that work.
             </h2>

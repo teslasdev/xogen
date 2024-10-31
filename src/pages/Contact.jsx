@@ -130,7 +130,7 @@ const Contact = () => {
               onClick={() => handleToggle(index)}
               className="w-full lg:text-[30px] text-[20px] font-[600] flex justify-between items-center py-4 text-left text-lg  text-gray-800 focus:outline-none"
             >
-              {item.title}
+              <h2>{item.title}</h2>
               <span className="text-xl border md:h-[50px] md:w-[50px] w-[25px] h-[25px] flex justify-center items-center rounded-full">
                 {activeIndex === index ? "-" : "+"}
               </span>
