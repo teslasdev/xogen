@@ -49,16 +49,16 @@ const Header = () => {
             <PrimaryButton label={"CLOSE"} />
           </div>
           <ul className="text-white font-[700] flex flex-col w-full h-full justify-center items-center text-[30px] gap-4">
-            <Link to={"/about"}>
+            <Link to={"/about"} onClick={() => setOpen(false)}>
               <li className="">About Xogen</li>
             </Link>
-            <Link to={"/what-we-do"}>
+            <Link to={"/what-we-do"} onClick={() => setOpen(false)}>
               <li className="">What we do</li>
             </Link>
-            <Link to={"/use-cases"}>
+            <Link to={"/use-cases"} onClick={() => setOpen(false)}>
               <li className="">Use Cases</li>
             </Link>
-            <Link to={"/contact"}>
+            <Link to={"/contact"} onClick={() => setOpen(false)}>
               <li className="">Contact us</li>
             </Link>
 

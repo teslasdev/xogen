@@ -56,7 +56,7 @@ const Home = () => {
       {/* Features */}
       <div className="flex justify-between gap-12 flex-wrap py-32">
         <div className="md:w-[45%] w-full">
-          <div className="h-[288px] bg-[#eee] rounded-[10px] w-full">
+          <div className="lg:h-[288px] h-[180px] bg-[#eee] rounded-[10px] w-full">
             <img
               src={xgAuto}
               alt="Banner"
@@ -73,7 +73,7 @@ const Home = () => {
           </p>
         </div>
         <div className="md:w-[45%] w-full">
-          <div className="h-[288px] bg-[#eee] rounded-[10px] w-full">
+          <div className="lg:h-[288px] h-[180px] bg-[#eee] rounded-[10px] w-full">
             <img
               src={xgAnalystics}
               alt="Banner"
@@ -91,7 +91,7 @@ const Home = () => {
         </div>
 
         <div className="md:w-[45%] w-full">
-          <div className="h-[288px] bg-[#eee] rounded-[10px] w-full">
+          <div className="lg:h-[288px] h-[180px] bg-[#eee] rounded-[10px] w-full">
             <img
               src={xgAi}
               alt="Banner"
@@ -108,7 +108,7 @@ const Home = () => {
         </div>
 
         <div className="md:w-[45%] w-full">
-          <div className="h-[288px] bg-[#eee] rounded-[10px] w-full">
+          <div className="lg:h-[288px] h-[180px] bg-[#eee] rounded-[10px] w-full">
             <img
               src={xgSecurity}
               alt="Banner"
