@@ -3,11 +3,11 @@
 <path d="M50 67.5L56.6665 75L70 60" stroke="url(#paint1_linear_41_3936)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
 <defs>
 <linearGradient id="paint0_linear_41_3936" x1="10" y1="60" x2="110" y2="60" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FE0C0B"/>
+<stop stop-color="#f22b0a"/>
 <stop offset="1" stop-color="#140F18"/>
 </linearGradient>
 <linearGradient id="paint1_linear_41_3936" x1="50" y1="67.5" x2="70" y2="67.5" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FE0C0B"/>
+<stop stop-color="#f22b0a"/>
 <stop offset="1" stop-color="#140F18"/>
 </linearGradient>
 </defs>

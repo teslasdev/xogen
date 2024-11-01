@@ -25,7 +25,7 @@ const Home = () => {
           <h3 className="lg:text-[90px] md:text-[60px] text-[25px] font-[400] lg:leading-[105.48px]">
             Leading AI Solutions for
           </h3>
-          <h2 className="lg:mt-0 mt-4 lg:text-[90px] md:text-[60px] text-[25px] lg:leading-[105.48px] italic bg-gradient-to-r from-[#FE0C0B] to-[#140F18] bg-clip-text text-transparent">
+          <h2 className="lg:mt-0 mt-4 lg:text-[90px] md:text-[60px] text-[25px] lg:leading-[105.48px] italic bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent">
             Exceptional Results
           </h2>
 
@@ -34,14 +34,14 @@ const Home = () => {
             From automation to insights, our cutting-edge technology drives
             innovation and growth like never before.
           </p>
-          <div className="w-[242.73px] mt-6 bg-[#FE0C0B] lg:lg:text-[25px] lg:h-[74px] h-[60px] rounded-[5.91px]">
+          <div className="w-[242.73px] mt-6 bg-[#f22b0a] lg:lg:text-[25px] lg:h-[74px] h-[60px] rounded-[5.91px]">
             <PrimaryButton label={"Request a Demo now"} />
           </div>
         </div>
       </div>
 
       {/* Customer */}
-      <div className="md:pt-0 pt-6">
+      {/* <div className="md:pt-0 pt-6">
         <h3 className="lg:text-[45px] text-[20px] text-center md:text-start font-[700]">
           Our Customers
         </h3>
@@ -51,7 +51,7 @@ const Home = () => {
           <div className="md:w-[176px] w-[130px] h-[50px] bg-[#eee]"></div>
           <div className="md:w-[176px] w-[130px] h-[50px] bg-[#eee]"></div>
         </div>
-      </div>
+      </div> */}
 
       {/* Features */}
       <div className="flex justify-between gap-12 flex-wrap py-32">
@@ -64,12 +64,14 @@ const Home = () => {
             />
           </div>
           <h2 className="lg:mt-0 mt-4 lg:text-[50px] text-[25px] font-[700]">
-            AI-Driven Automation
+            Technical Sales Enablement
           </h2>
           <p className="lg:lg:text-[25px]">
-            Streamline your workflows with intelligent automation that reduces
-            errors and maximizes efficiency, allowing your team to focus on
-            high-impact tasks.
+            Xogen delivers its proprietary F.A.N.T.A.S.T.I.C. methodology, a
+            one-day whiteboard session and group workshop that equips technical
+            sales teams to align technical capabilities with business goals,
+            improve solution demos, and secure stakeholder buy-in, driving deal
+            success.
           </p>
         </div>
         <div className="md:w-[45%] w-full">
@@ -81,12 +83,12 @@ const Home = () => {
             />
           </div>
           <h2 className="lg:mt-0 mt-4 lg:text-[50px] text-[25px] font-[700]">
-            Advanced Data Analytics
+            Sales Enablement and Fractional Consulting:
           </h2>
           <p className="lg:text-[25px]">
-            Transform raw data into powerful insights. Xogen's AI analyzes your
-            data to uncover trends, forecast outcomes, and guide strategic
-            decisions.
+            Xogen offers fractional CRO or CDO services, extending the sales
+            team for companies lacking internal capabilities and providing
+            leadership to ensure sales success.
           </p>
         </div>
 
@@ -99,11 +101,10 @@ const Home = () => {
             />
           </div>
           <h2 className="lg:mt-0 mt-4 lg:text-[50px] text-[25px] font-[700]">
-            Custom AI Development
+          Data and AI Implementation Services
           </h2>
           <p className="lg:text-[25px]">
-            Our tailor-made AI solutions are designed to meet your unique
-            business needs, delivering innovation that scales with your growth.
+          Xogen provides consultative services in data and AI, helping organizations implement and manage advanced data solutions effectively.
           </p>
         </div>
 
@@ -138,7 +139,7 @@ const Home = () => {
           <h2 className="lg:mt-0 mt-4 lg:text-[62px] text-[31px] font-[600] lg:leading-[105.48px]">
             Simplifying
           </h2>
-          <h2 className="lg:mt-0 mt-4 lg:text-[62px] text-[31px] lg:leading-[105.48px] italic bg-gradient-to-r from-[#FE0C0B] to-[#140F18] bg-clip-text text-transparent">
+          <h2 className="lg:mt-0 mt-4 lg:text-[62px] text-[31px] lg:leading-[105.48px] italic bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent">
             Innovation and Growth
           </h2>
         </div>
@@ -151,7 +152,7 @@ const Home = () => {
         </p>
       </div>
 
-      <div className="py-24">
+      {/* <div className="py-24">
         <h3 className="text-[45px] font-[700]">What our clients are saying</h3>
         <div className="w-full flex justify-between mt-4 flex-wrap gap-6">
           <div className="lg:w-[386px]">
@@ -213,7 +214,7 @@ const Home = () => {
             </h2>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Discovery */}
       <div className="flex flex-wrap  lg:p-[24px] justify-between items-center">
@@ -222,7 +223,7 @@ const Home = () => {
             <h2 className="lg:mt-0 md:text-[50px] text-[30px] font-[600] lg:leading-[105.48px]">
               Discover
             </h2>
-            <h2 className="lg:mt-0 md:text-[50px] text-[30px] lg:leading-[105.48px] italic bg-gradient-to-r from-[#FE0C0B] to-[#140F18] bg-clip-text text-transparent">
+            <h2 className="lg:mt-0 md:text-[50px] text-[30px] lg:leading-[105.48px] italic bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent">
               Real Impact
             </h2>
           </div>
@@ -232,7 +233,7 @@ const Home = () => {
             inspired!
           </p>
 
-          <div className="w-[242.73px] mt-6 bg-[#FE0C0B] lg:text-[25px] text-[20px] h-[74px] rounded-[5.91px]">
+          <div className="w-[242.73px] mt-6 bg-[#f22b0a] lg:text-[25px] text-[20px] h-[74px] rounded-[5.91px]">
             <PrimaryButton label={"Read our use cases"} />
           </div>
         </div>

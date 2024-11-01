@@ -19,6 +19,9 @@ body {
   font-family: "Darker Grotesque", serif;
 }
 
+p li {
+  list-style: circle;
+}
 
 li {
   list-style: none;

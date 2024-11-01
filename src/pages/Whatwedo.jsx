@@ -4,18 +4,16 @@ import { xgBanner3, xgSttream, xgTailored, xgUnclock } from "../assets";
 const Whatwedo = () => {
   return (
     <div className="px-6 lg:px-0 max-w-[1440px] mx-auto">
-    <div className="w-full flex flex-col lg:min-h-[700px] justify-center items-center">
-      <img src={xgBanner3} alt="Banner" className="lg:h-[103px] w-full" />
+      <div className="w-full flex flex-col lg:min-h-[700px] justify-center items-center">
+        <img src={xgBanner3} alt="Banner" className="lg:h-[103px] w-full" />
         <div className="lg:w-[900px] text-center mt-6 flex flex-col justify-center items-center">
           <h3 className="lg:text-[90px] text-[45px] font-[400] leading-[105.48px]">
             What we do
           </h3>
 
           <p className="font-[400] text-[#120024] md:text-[24px] lg:text-[20px] py-4">
-            At Xogen, we’re dedicated to transforming the way you do business
-            through innovative AI solutions. Our mission is to make advanced
-            technology practical and accessible, driving efficiency, enhancing
-            decision-making, and unlocking new opportunities for growth.
+            Xogen empowers startups and Enterprise SaaS to grow, innovate, and
+            succeed in a rapidly evolving digital data and IT landscape.
           </p>
         </div>
       </div>
@@ -27,18 +25,22 @@ const Whatwedo = () => {
         <div className="w-[100%] lg:w-[40%]">
           <div className="flex gap-2">
             <h2 className="text-[25px] font-[600] lg:leading-[105.48px]">
-              Streamline Your Operations
+              Technical Sales Engineering readiness
             </h2>
           </div>
-          <p className="lg:text-[20px] py-4">
-            Our AI-driven automation tools handle repetitive tasks, freeing up
-            your team to focus on strategic activities. From automating data
-            entry to managing workflows, our solutions help you achieve greater
-            efficiency and productivity.
+          <p className="lg:text-[24px] font-[800] py-4">
+            <li>Mapping existing architecture and pain points</li>
+            <li>Aligns solutions with business objectives.</li>
+            <li>Creating future architecture and integration</li>
+            <li>Learning to develop a technical champion</li>
           </p>
         </div>
         <div>
-          <img src={xgSttream} alt="Banner" className="lg:h-[361px] lg:w-[506px]" />
+          <img
+            src={xgSttream}
+            alt="Banner"
+            className="lg:h-[361px] lg:w-[506px]"
+          />
         </div>
       </div>
 
@@ -46,18 +48,23 @@ const Whatwedo = () => {
         <div className="w-[100%] lg:w-[40%]">
           <div className="flex gap-2">
             <h2 className="text-[25px] font-[600] lg:leading-[105.48px]">
-              Unlock Insights and Drive Decisions
+              Data and Cloud Readiness
             </h2>
           </div>
-          <p className="lg:text-[20px] py-4">
-            Leverage the power of AI to analyze complex data sets and gain
-            actionable insights. Our data analytics solutions provide real-time
-            reports, predictive analytics, and deep insights to guide your
-            business strategies and decision-making processes.
+          <p className="lg:text-[24px] font-[800] py-4">
+            <li>Conduct Pre Assessment of Data landscape</li>
+            <li>Best practices for data analytics delivery</li>
+            <li>Conduct Gap Analysis</li>
+            <li>Scoping Services</li>
+            <li> Engineering Enablement</li>
           </p>
         </div>
         <div>
-          <img src={xgUnclock} alt="Banner" className="lg:h-[361px] lg:w-[506px]" />
+          <img
+            src={xgUnclock}
+            alt="Banner"
+            className="lg:h-[361px] lg:w-[506px]"
+          />
         </div>
       </div>
 
@@ -65,18 +72,21 @@ const Whatwedo = () => {
         <div className="w-[100%] lg:w-[40%]">
           <div className="flex gap-2">
             <h2 className="text-[25px] font-[600] lg:leading-[105.48px]">
-              Tailored Solutions for Your Unique Needs
+            General Information
             </h2>
           </div>
-          <p className="lg:text-[20px] py-4">
-            We offer bespoke AI development services to create solutions that
-            fit your specific requirements. Whether you need a custom algorithm,
-            application, or integration, our team works closely with you to
-            develop and deploy technology that aligns with your goals.
+          <p className="lg:text-[24px] font-[800] py-4">
+            <li>Established since 2014</li>
+            <li>Over 20 successful project implementations</li>
+            <li>Commercial experience with Financial Services and Retail</li>
           </p>
         </div>
         <div>
-          <img src={xgTailored} alt="Banner" className="lg:h-[361px] lg:w-[506px]" />
+          <img
+            src={xgTailored}
+            alt="Banner"
+            className="lg:h-[361px] lg:w-[506px]"
+          />
         </div>
       </div>
     </div>

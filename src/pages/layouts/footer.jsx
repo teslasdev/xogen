@@ -20,12 +20,10 @@ const Footer = () => {
                 placeholder="Enter your email to subscribe"
               />
             </div>
-            <div className="lg:w-[192px] w-[90px] bg-[#FE0C0B] lg:text-[25px] h-full rounded-r-[5.91px]">
+            <div className="lg:w-[192px] w-[90px] bg-[#f22b0a] lg:text-[25px] h-full rounded-r-[5.91px]">
               <PrimaryButton label={"Subscribe"} />
             </div>
           </div>
-
-    
         </div>
       </div>
 
@@ -34,10 +32,9 @@ const Footer = () => {
           <div className="w-[430px]">
             <img src={xgLogo2} alt="" className="h-[119.34px]" />
             <div className="lg:px-4 text-[20px] font-[700] space-y-2">
-              <li>45 Kensington High Street</li>
-              <li>London</li>
-              <li>W8 5EB</li>
-              <li>United Kingdom</li>
+              <li>22312 Bertie Farm Court</li>
+              <li>Laytonsville</li>
+              <li>MD 20882</li>
             </div>
 
             <div className="flex gap-4 mt-6 lg:px-4">

@@ -1,6 +1,6 @@
 import React from "react";
 import {
-    xgAdvanceSvg,
+  xgAdvanceSvg,
   xgBanner3,
   xgBulb,
   xgCentric,
@@ -17,7 +17,7 @@ import {
 const About = () => {
   return (
     <div className="px-6 lg:px-0 max-w-[1440px] mx-auto">
-      <div className="w-full flex flex-col lg:min-h-[700px] justify-center items-center">
+      <div className="w-full flex flex-col lg:min-h-[300px] justify-center items-center">
         <img src={xgBanner3} alt="Banner" className="lg:h-[103px] w-full" />
         <div className="lg:w-[900px] text-center mt-6 flex flex-col justify-center items-center">
           <h3 className="lg:text-[90px] text-[45px] font-[400] leading-[105.48px]">
@@ -42,29 +42,30 @@ const About = () => {
         <div className="lg:w-[40%] w-full">
           <div className="flex gap-2">
             <h2 className="text-[50px] font-[600] leading-[105.48px]">Our</h2>
-            <h2 className="text-[50px] leading-[105.48px] italic bg-gradient-to-r from-[#FE0C0B] to-[#140F18] bg-clip-text text-transparent">
+            <h2 className="text-[50px] leading-[105.48px] italic bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent">
               Story
             </h2>
           </div>
           <p className="text-[20px]">
-            It all began with a vision—to harness the power of AI and make it
-            practical for every business, no matter the industry or scale. Xogen
-            was founded by a group of forward-thinkers who saw AI as more than a
-            technology trend, but as a tool to create real impact. From our
-            humble beginnings, we’ve grown into a trusted AI partner, providing
-            smart solutions to businesses across the globe.
+            Xogen.ai is a minority-owned business specializing in technical and
+            sales enablement as well as providing fractional sales guidance for
+            SaaS-based companies
           </p>
           <p className="text-[20px] mt-6">
-            Our journey has been one of innovation, learning, and collaboration.
-            Along the way, we’ve hit key milestones—expanding our service
-            offerings, refining our technology, and delivering results that
-            speak for themselves. As we continue to grow, one thing remains the
-            same: our commitment to pushing boundaries and helping our clients
-            succeed.
+            We align knowledge with business goals, deliver custom IT and data
+            solutions, and provide cutting-edge training and implementation.
+          </p>
+          <p className="text-[20px] mt-6">
+            Xogen empowers startups and Enterprise SaaS to grow, innovate, and
+            succeed in a rapidly evolving digital data and IT landscape.
           </p>
         </div>
         <div>
-          <img src={xgStory} alt="Banner" className="lg:h-[664px] lg:w-[437.3px]" />
+          <img
+            src={xgStory}
+            alt="Banner"
+            className="lg:h-[664px] lg:w-[437.3px]"
+          />
         </div>
       </div>
 
@@ -85,39 +86,49 @@ const About = () => {
 
       <div className="flex justify-between items-center w-full mt-6">
         <div className="text-center flex flex-wrap gap-6 justify-between items-center w-full">
-          <div>
+          <div className="md:w-[30%] w-full">
             <img src={xgDrivenSvg} alt="Banner" className="h-[103px] w-full" />
-            <p className="font-[500] mt-2 text-[20px]">AI-Driven Automation</p>
-            <p className="md:w-[252px]">Boost efficiency by automating everyday processes</p>
+            <p className="font-[500] mt-2 text-[20px]">Technical Sales Framework - F.A.N.T.A.S.T.I.C</p>
+            {/* <p className="md:w-[252px]">
+              Boost efficiency by automating everyday processes
+            </p> */}
           </div>
 
-          <div>
+          <div className="md:w-[30%] w-full">
             <img src={xgAdvanceSvg} alt="Banner" className="h-[103px] w-full" />
-            <p className="font-[500] mt-2 text-[20px]">Data Insights</p>
-            <p className="md:w-[252px]">Unlock the power of your data for smarter decisions.</p>
+            <p className="font-[500] mt-2 text-[20px]">Fractional Sales Consulting</p>
+            {/* <p className="md:w-[252px]">
+              Unlock the power of your data for smarter decisions.
+            </p> */}
           </div>
 
-          <div>
+          <div className="md:w-[30%] w-full">
             <img src={xgCustomSvg} alt="Banner" className="h-[103px] w-full" />
-            <p className="font-[500] mt-2 text-[20px]">Custom AI Solutions</p>
-            <p className="md:w-[252px]">Tailored AI to meet your unique business needs.</p>
+            <p className="font-[500] mt-2 text-[20px]">Data and AI Consulting</p>
+            {/* <p className="md:w-[252px]">
+              Tailored AI to meet your unique business needs.
+            </p> */}
           </div>
 
-          <div>
+          {/* <div>
             <img src={xgRobotSvg} alt="Banner" className="h-[103px] w-full" />
             <p className="font-[500] mt-2 text-[20px]">AI Security</p>
-            <p className="md:w-[252px]">Keep your business secure with advanced AI threat detection.</p>
-          </div>
+            <p className="md:w-[252px]">
+              Keep your business secure with advanced AI threat detection.
+            </p>
+          </div> */}
         </div>
       </div>
 
-      {/* Team */}
+      {/* Team
       <div className="lg:py-24 py-12">
         <h3 className="lg:text-[45px] text-[23px] font-[700]">Our Team</h3>
         <div className="w-full flex flex-wrap justify-between mt-4 gap-6">
           <div className="lg:w-[386px]">
             <div className="h-[320px] bg-[#eee] rounded-[10px] w-full"></div>
-            <h2 className="lg:text-[40px] text-[20px] lg:mt-0 mt-4 font-[700]">David O. – CEO</h2>
+            <h2 className="lg:text-[40px] text-[20px] lg:mt-0 mt-4 font-[700]">
+              David O. – CEO
+            </h2>
             <p className="text-[20px]">
               David leads Xogen with 15+ years of AI and tech experience. His
               focus on innovation and business strategy drives the company’s
@@ -126,7 +137,9 @@ const About = () => {
           </div>
           <div className="lg:w-[386px]">
             <div className="h-[320px] bg-[#eee] rounded-[10px] w-full"></div>
-            <h2 className="lg:text-[40px] text-[20px] lg:mt-0 mt-4 font-[700]">Amina B. – CTO</h2>
+            <h2 className="lg:text-[40px] text-[20px] lg:mt-0 mt-4 font-[700]">
+              Amina B. – CTO
+            </h2>
             <p className="text-[20px]">
               Amina oversees Xogen’s AI technology, transforming complex
               challenges into scalable, user-friendly solutions. She’s a leader
@@ -136,7 +149,9 @@ const About = () => {
 
           <div className="lg:w-[386px]">
             <div className="h-[320px] bg-[#eee] rounded-[10px] w-full"></div>
-            <h2 className="lg:text-[40px] text-[20px] lg:mt-0 mt-4 font-[700]">Chike N. – Product Lead</h2>
+            <h2 className="lg:text-[40px] text-[20px] lg:mt-0 mt-4 font-[700]">
+              Chike N. – Product Lead
+            </h2>
             <p className="text-[20px]">
               Chike ensures Xogen’s AI products meet business needs. With 10+
               years in product management, he crafts solutions that bring real
@@ -144,10 +159,10 @@ const About = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Our values */}
-      <div className="w-full flex py-12 justify-center items-center">
+      {/* <div className="w-full flex py-12 justify-center items-center">
         <div className="text-center lg:mt-6 flex flex-col justify-center items-center">
           <h3 className="lg:text-[90px] text-[45px] font-[400] leading-[105.48px]">
             Our Values
@@ -163,38 +178,58 @@ const About = () => {
             create lasting impact.
           </p>
         </div>
-      </div>
+      </div> */}
 
       {/*  */}
 
-      <div className="flex justify-between items-center w-full mt-6">
+      {/* <div className="flex justify-between items-center w-full mt-6">
         <div className="text-center flex-wrap gap-12 flex justify-between items-center w-full">
           <div>
-            <img src={xgBulb} alt="Banner" className="md:h-[103px] h-[70px] w-full" />
+            <img
+              src={xgBulb}
+              alt="Banner"
+              className="md:h-[103px] h-[70px] w-full"
+            />
             <p className="font-[500] mt-2 text-[20px]">Innovation</p>
           </div>
 
           <div>
-            <img src={xgIntegrity} alt="Banner" className="md:h-[103px] h-[70px]  w-full" />
+            <img
+              src={xgIntegrity}
+              alt="Banner"
+              className="md:h-[103px] h-[70px]  w-full"
+            />
             <p className="font-[500] mt-2 text-[20px]">Integrity</p>
           </div>
 
           <div>
-            <img src={xgCollab} alt="Banner" className="md:h-[103px] h-[70px]  w-full" />
+            <img
+              src={xgCollab}
+              alt="Banner"
+              className="md:h-[103px] h-[70px]  w-full"
+            />
             <p className="font-[500] mt-2 text-[20px]">Collaboration</p>
           </div>
 
           <div>
-            <img src={xgExcel} alt="Banner" className="md:h-[103px] h-[70px]  w-full" />
+            <img
+              src={xgExcel}
+              alt="Banner"
+              className="md:h-[103px] h-[70px]  w-full"
+            />
             <p className="font-[500] mt-2 text-[20px]">Excellence</p>
           </div>
 
           <div>
-            <img src={xgCentric} alt="Banner" className="md:h-[103px] h-[70px]  w-full" />
+            <img
+              src={xgCentric}
+              alt="Banner"
+              className="md:h-[103px] h-[70px]  w-full"
+            />
             <p className="font-[500] mt-2 text-[20px]">Customer-centric</p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -24,7 +24,7 @@ const Cases = () => {
 
       <div className="py-24">
         <div className="flex flex-wrap gap-2">
-          <h2 className="lg:text-[50px] text-[30px] lg:leading-[105.48px] italic bg-gradient-to-r from-[#FE0C0B] to-[#140F18] bg-clip-text text-transparent">
+          <h2 className="lg:text-[50px] text-[30px] lg:leading-[105.48px] italic bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent">
             Transformative AI
           </h2>
           <h2 className="lg:text-[50px] text-[30px] font-[600] lg:leading-[105.48px]">
