@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="lg:max-w-[1440px] mx-auto">
       <div className="py-32 lg:px-12 px-6">
         <div className="border relative border-[#D5D5D5] lg:h-[500px] h-[200px] rounded-[14px] flex flex-col justify-center items-center">
-          <p className="lg:text-[20px] lg:w-[765px] text-center">
+          <p className="lg:text-[16px] lg:w-[765px] text-center">
             Get the latest in AI trends, tips, and updates straight to your
             inbox. Don’t miss out—join the Xogen community today!
           </p>
@@ -16,11 +16,11 @@ const Footer = () => {
             <div className="lg:w-[491px] h-full border-[0.35px] border-[#00000050] rounded-l-[5.91px]">
               <input
                 type="text"
-                className="border-none outline-none h-full w-full px-4 lg:text-[20px] text-[14px] bg-transparent"
+                className="border-none outline-none h-full w-full px-4 lg:text-[16px] text-[14px] bg-transparent"
                 placeholder="Enter your email to subscribe"
               />
             </div>
-            <div className="lg:w-[192px] w-[90px] bg-[#f22b0a] lg:text-[20px] h-full rounded-r-[5.91px]">
+            <div className="lg:w-[192px] w-[90px] bg-[#f22b0a] lg:text-[16px] h-full rounded-r-[5.91px]">
               <PrimaryButton label={"Subscribe"} />
             </div>
           </div>
@@ -31,7 +31,7 @@ const Footer = () => {
         <div className="flex flex-wrap px-6 lg:px-0 gap-5  justify-between">
           <div className="w-[430px]">
             <img src={xgLogo2} alt="" className="h-[119.34px]" />
-            <div className="lg:px-4 text-[20px] font-[700] space-y-2">
+            <div className="lg:px-4 text-[16px] font-[500] space-y-2">
               <li>22312 Bertie Farm Court</li>
               <li>Laytonsville</li>
               <li>MD 20882</li>
@@ -52,10 +52,10 @@ const Footer = () => {
 
           <div className="mt-4">
             <span className="flex gap-3 items-center">
-              <h2 className="text-[20px] font-[700]">Overview </h2>
+              <h2 className="text-[16px] font-[500]">Overview </h2>
               <img src={xgArrow} alt="" className="w-[24px] h-[34px]" />
             </span>
-            <div className="text-[20px] space-y-4 font-[700] mt-4">
+            <div className="text-[16px] space-y-4 font-[500] mt-4">
               <li>About Xogen</li>
               <li>What we do</li>
               <li>Use Cases</li>
@@ -65,10 +65,10 @@ const Footer = () => {
 
           <div className="mt-4">
             <span className="flex gap-3 items-center">
-              <h2 className="text-[20px] font-[700]">Documentation </h2>
+              <h2 className="text-[16px] font-[500]">Documentation </h2>
               <img src={xgArrow} alt="" className="w-[24px] h-[34px]" />
             </span>
-            <div className="text-[20px] space-y-4 font-[700] mt-4">
+            <div className="text-[16px] space-y-4 font-[500] mt-4">
               <li>Privacy</li>
               <li>Cookies</li>
               <li>Terms & Conditions</li>
@@ -79,7 +79,7 @@ const Footer = () => {
       </div>
 
       <div className="border border-t-[#000000] py-6 pb-12 mt-12 text-center">
-        <p className="lg:text-[20px] text-[14px]">
+        <p className="lg:text-[16px] text-[14px]">
           © Copyright 2024 | Company registration No. 1234567
         </p>
       </div>
