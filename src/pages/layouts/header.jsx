@@ -17,7 +17,7 @@ const Header = () => {
             />
           </Link>
 
-          <ul className="text-white text-[18px] lg:text-[28px] hidden gap-8 md:flex">
+          <ul className="text-white lg:text-[20px] text-[14px] hidden gap-8 md:flex">
             <Link to={"/about"}>
               <li className="">About Xogen</li>
             </Link>
@@ -31,7 +31,7 @@ const Header = () => {
               <li className="">Contact us</li>
             </Link>
           </ul>
-          <div className="lg:w-[141.92px] w-[120px] hidden md:flex  bg-[#f22b0a] lg:text-[25px] lg:h-[63.37px] h-[40px] rounded-[5.91px]">
+          <div className="lg:w-[241.92px] w-[120px] hidden md:flex  bg-[#f22b0a] lg:text-[25px] text-[14px] lg:h-[63.37px] h-[40px] rounded-[5.91px]">
             <PrimaryButton label={"Try Xogen"} />
           </div>
 

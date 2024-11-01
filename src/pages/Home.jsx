@@ -34,7 +34,7 @@ const Home = () => {
             From automation to insights, our cutting-edge technology drives
             innovation and growth like never before.
           </p>
-          <div className="w-[242.73px] mt-6 bg-[#f22b0a] lg:lg:text-[25px] lg:h-[74px] h-[60px] rounded-[5.91px]">
+          <div className="w-[342.73px] mt-6 bg-[#f22b0a] lg:text-[20px] lg:h-[74px] h-[60px] rounded-[5.91px]">
             <PrimaryButton label={"Request a Demo now"} />
           </div>
         </div>
