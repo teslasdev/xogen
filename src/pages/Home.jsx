@@ -14,7 +14,7 @@ import { PrimaryButton } from "./components/button";
 
 const Home = () => {
   return (
-    <div className="px-6 lg:px-0 md:max-w-[1440px] mx-auto">
+    <div className="px-6 lg:px-0 md:max-w-[1425px] mx-auto">
       <div className="w-full flex flex-col lg:min-h-[1000px] justify-center items-center">
         <img
           src={xgBanner}
@@ -25,7 +25,7 @@ const Home = () => {
           <h3 className="lg:text-[90px] md:text-[60px] text-[25px] font-[400] lg:leading-[105.48px]">
             Leading AI Solutions for
           </h3>
-          <h2 className="lg:mt-0 mt-4 lg:text-[90px] md:text-[60px] text-[25px] lg:leading-[105.48px] italic bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent">
+          <h2 className="lg:mt-0 mt-4 lg:text-[90px] md:text-[60px] text-[25px] lg:leading-[105.48px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent">
             Exceptional Results
           </h2>
 
@@ -63,10 +63,10 @@ const Home = () => {
               className="w-full h-full rounded-[10px]"
             />
           </div>
-          <h2 className="lg:mt-0 mt-4 lg:text-[50px] text-[25px] font-[700]">
+          <h2 className="lg:mt-0 mt-4 lg:text-[30px] text-[#f22b0a] text-[35px] py-6 font-[700]">
             Technical Sales Enablement
           </h2>
-          <p className="lg:lg:text-[25px]">
+          <p className="lg:text-[22px]">
             Xogen delivers its proprietary F.A.N.T.A.S.T.I.C. methodology, a
             one-day whiteboard session and group workshop that equips technical
             sales teams to align technical capabilities with business goals,
@@ -82,10 +82,10 @@ const Home = () => {
               className="w-full h-full rounded-[10px]"
             />
           </div>
-          <h2 className="lg:mt-0 mt-4 lg:text-[50px] text-[25px] font-[700]">
-            Sales Enablement and Fractional Consulting:
+          <h2 className="lg:mt-0 mt-4 lg:text-[28px] text-[#f22b0a] text-[35px] py-6 font-[700]">
+            Sales Enablement and Fractional Consulting
           </h2>
-          <p className="lg:text-[25px]">
+          <p className="lg:text-[22px]">
             Xogen offers fractional CRO or CDO services, extending the sales
             team for companies lacking internal capabilities and providing
             leadership to ensure sales success.
@@ -100,10 +100,10 @@ const Home = () => {
               className="w-full h-full rounded-[10px]"
             />
           </div>
-          <h2 className="lg:mt-0 mt-4 lg:text-[50px] text-[25px] font-[700]">
+          <h2 className="lg:mt-0 mt-4 lg:text-[30px] text-[#f22b0a] text-[35px] py-6 font-[700]">
           Data and AI Implementation Services
           </h2>
-          <p className="lg:text-[25px]">
+          <p className="lg:text-[22px]">
           Xogen provides consultative services in data and AI, helping organizations implement and manage advanced data solutions effectively.
           </p>
         </div>
@@ -116,10 +116,10 @@ const Home = () => {
               className="w-full h-full rounded-[10px]"
             />
           </div>
-          <h2 className="lg:mt-0 mt-4 lg:text-[50px] text-[25px] font-[700]">
+          <h2 className="lg:mt-0 mt-4 lg:text-[30px] text-[#f22b0a] text-[35px] py-6 font-[700]">
             AI-Powered Security
           </h2>
-          <p className="lg:text-[25px]">
+          <p className="lg:text-[22px]">
             Safeguard your business with AI that detects and prevents threats,
             ensuring transparency and protection.
           </p>
@@ -139,7 +139,7 @@ const Home = () => {
           <h2 className="lg:mt-0 mt-4 lg:text-[62px] text-[31px] font-[600] lg:leading-[105.48px]">
             Simplifying
           </h2>
-          <h2 className="lg:mt-0 mt-4 lg:text-[62px] text-[31px] lg:leading-[105.48px] italic bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent">
+          <h2 className="lg:mt-0 mt-4 lg:text-[62px] text-[31px] lg:leading-[105.48px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent">
             Innovation and Growth
           </h2>
         </div>
@@ -163,7 +163,7 @@ const Home = () => {
                 className="w-full h-full rounded-[10px]"
               />
             </div>
-            <h2 className="lg:mt-0 mt-4 lg:text-[40px] text-[20px] font-[700]">
+            <h2 className="lg:mt-0 mt-4 lg:text-[25px] text-[20px] font-[700]">
               Xogen transformed our workflow.
             </h2>
             <p className="lg:text-[20px]">
@@ -182,7 +182,7 @@ const Home = () => {
                 className="w-full h-full rounded-[10px]"
               />
             </div>
-            <h2 className="lg:mt-0 mt-4 lg:text-[40px] text-[20px] font-[700]">
+            <h2 className="lg:mt-0 mt-4 lg:text-[25px] text-[20px] font-[700]">
               Insightful and user-friendly.
             </h2>
             <p className="lg:text-[20px]">
@@ -202,7 +202,7 @@ const Home = () => {
                 className="w-full h-full rounded-[10px]"
               />
             </div>
-            <h2 className="lg:mt-0 mt-4 lg:text-[40px] text-[20px] font-[700]">
+            <h2 className="lg:mt-0 mt-4 lg:text-[25px] text-[20px] font-[700]">
               Tailored AI solutions that work.
             </h2>
             <p className="lg:text-[20px]">
@@ -223,7 +223,7 @@ const Home = () => {
             <h2 className="lg:mt-0 md:text-[50px] text-[30px] font-[600] lg:leading-[105.48px]">
               Discover
             </h2>
-            <h2 className="lg:mt-0 md:text-[50px] text-[30px] lg:leading-[105.48px] italic bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent">
+            <h2 className="lg:mt-0 md:text-[50px] text-[30px] lg:leading-[105.48px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent">
               Real Impact
             </h2>
           </div>
