@@ -20,10 +20,10 @@ const Home = () => {
           className="rounded-[10px] mt-6 md:mt-0 lg:w-[530px]"
         />
         <div className="lg:w-[800px] flex flex-col justify-start items-start">
-          <h3 className="lg:text-[90px] md:text-[40px] text-[25px] font-[600]">
+          <h3 className="lg:text-[90px] md:text-[40px] text-[30px] font-[600]">
             Leading AI Solutions for
           </h3>
-          <h2 className="lg:mt-0 mt-4 lg:text-[40px] md:text-[60px] text-[25px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent">
+          <h2 className="lg:mt-0 lg:text-[40px] md:text-[60px] text-[20px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent">
             Exceptional Results
           </h2>
 
@@ -51,8 +51,10 @@ const Home = () => {
         </div>
       </div> */}
 
+      <hr className="mt-12"/>
+
       {/* Features */}
-      <div className="flex justify-between gap-12 flex-wrap py-32">
+      <div className="flex justify-between gap-12 flex-wrap py-12">
         <div className="md:w-[45%] w-full">
           <div className="lg:h-[288px] h-[180px] bg-[#eee] rounded-[10px] w-full">
             <img
@@ -61,7 +63,7 @@ const Home = () => {
               className="w-full h-full rounded-[10px]"
             />
           </div>
-          <h2 className="lg:mt-0 mt-4 lg:text-[30px] text-[#f22b0a] text-[35px] py-6 font-[700]">
+          <h2 className="lg:mt-0 mt-4 lg:text-[30px] text-[#f22b0a] text-[25px] md:py-6 py-3  font-[700]">
             Technical Sales Enablement
           </h2>
           <p className="lg:text-[20px]">
@@ -80,7 +82,7 @@ const Home = () => {
               className="w-full h-full rounded-[10px]"
             />
           </div>
-          <h2 className="lg:mt-0 mt-4 lg:text-[28px] text-[#f22b0a] text-[35px] py-6 font-[700]">
+          <h2 className="lg:mt-0 mt-4 lg:text-[30px] text-[#f22b0a] text-[25px] md:py-6 py-3  font-[700]">
             Sales Enablement and Fractional Consulting
           </h2>
           <p className="lg:text-[20px]">
@@ -98,7 +100,7 @@ const Home = () => {
               className="w-full h-full rounded-[10px]"
             />
           </div>
-          <h2 className="lg:mt-0 mt-4 lg:text-[30px] text-[#f22b0a] text-[35px] py-6 font-[700]">
+          <h2 className="lg:mt-0 mt-4 lg:text-[30px] text-[#f22b0a] text-[25px] md:py-6 py-3  font-[700]">
             Data and AI Implementation Services
           </h2>
           <p className="lg:text-[20px]">
