@@ -7,8 +7,8 @@ const Header = () => {
   const [isOpen, setOpen] = useState(false);
   return (
     <div className="md:h-[180px] h-[100px] flex justify-center items-start">
-      <div className="lg:h-[98.81px]  h-[70px] fixed z-50 w-full bg-[#0B0202]">
-        <div className="w-full h-full max-w-[1440px] mx-auto flex justify-between items-center md:px-8 px-4">
+      <div className="lg:h-[78.81px]  h-[70px] fixed z-50 w-full bg-[#0B0202]">
+        <div className="w-full h-full max-w-[1440px] mx-auto flex justify-between items-center md:px-0 px-4">
           <Link to={"/"}>
             <img
               src={xgLogo}
@@ -17,7 +17,7 @@ const Header = () => {
             />
           </Link>
 
-          <ul className="text-white lg:text-[20px] text-[14px] hidden gap-8 md:flex">
+          <ul className="text-white lg:text-[16px] text-[14px] hidden gap-8 md:flex">
             <Link to={"/about"}>
               <li className="">About Xogen</li>
             </Link>
@@ -31,7 +31,7 @@ const Header = () => {
               <li className="">Contact us</li>
             </Link>
           </ul>
-          <div className="lg:w-[241.92px] w-[120px] hidden md:flex  bg-[#f22b0a] lg:text-[25px] text-[14px] lg:h-[63.37px] h-[40px] rounded-[5.91px]">
+          <div className="lg:w-[141.92px] w-[70px] hidden md:flex  bg-[#f22b0a] lg:text-[18px] text-[14px] lg:h-[43.37px] h-[30px] rounded-[5.91px]">
             <PrimaryButton label={"Try Xogen"} />
           </div>
 

@@ -4,9 +4,7 @@ import {
   xgAnalystics,
   xgAuto,
   xgBanner,
-  xgCustomer1,
-  xgCustomer2,
-  xgCustomer3,
+  xgBanner1,
   xgDiscover,
   xgSecurity,
 } from "../assets";
@@ -14,27 +12,27 @@ import { PrimaryButton } from "./components/button";
 
 const Home = () => {
   return (
-    <div className="px-6 lg:px-0 md:max-w-[1425px] mx-auto">
-      <div className="w-full flex flex-col lg:min-h-[1000px] justify-center items-center">
+    <div className="px-6 lg:px-0 md:max-w-[1440px] mx-auto">
+      <div className="w-full md:flex-row-reverse flex-col-reverse flex  lg:min-h-[600px] justify-between items-center">
         <img
           src={xgBanner}
           alt="Banner"
-          className="lg:h-[332px] rounded-[10px] lg:w-[630px]"
+          className="rounded-[10px] mt-6 md:mt-0 lg:w-[530px]"
         />
-        <div className="lg:w-[900px] text-center flex flex-col justify-center items-center">
-          <h3 className="lg:text-[90px] md:text-[60px] text-[25px] font-[400] lg:leading-[105.48px]">
+        <div className="lg:w-[800px] flex flex-col justify-start items-start">
+          <h3 className="lg:text-[90px] md:text-[40px] text-[25px] font-[600]">
             Leading AI Solutions for
           </h3>
-          <h2 className="lg:mt-0 mt-4 lg:text-[90px] md:text-[60px] text-[25px] lg:leading-[105.48px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent">
+          <h2 className="lg:mt-0 mt-4 lg:text-[40px] md:text-[60px] text-[25px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent">
             Exceptional Results
           </h2>
 
-          <p className="font-[400] text-[#120024] lg:text-[24px] text-[14px]">
+          <p className="font-[400] text-[#120024] mt-4 lg:text-[18px] text-[14px]">
             Xogen delivers world-class AI services to transform your business.
             From automation to insights, our cutting-edge technology drives
             innovation and growth like never before.
           </p>
-          <div className="w-[342.73px] mt-6 bg-[#f22b0a] lg:text-[20px] lg:h-[74px] h-[60px] rounded-[5.91px]">
+          <div className="w-[302.73px] mt-6 bg-[#f22b0a] lg:text-[18px] lg:h-[74px] h-[60px] rounded-[5.91px]">
             <PrimaryButton label={"Request a Demo now"} />
           </div>
         </div>
@@ -66,7 +64,7 @@ const Home = () => {
           <h2 className="lg:mt-0 mt-4 lg:text-[30px] text-[#f22b0a] text-[35px] py-6 font-[700]">
             Technical Sales Enablement
           </h2>
-          <p className="lg:text-[22px]">
+          <p className="lg:text-[20px]">
             Xogen delivers its proprietary F.A.N.T.A.S.T.I.C. methodology, a
             one-day whiteboard session and group workshop that equips technical
             sales teams to align technical capabilities with business goals,
@@ -85,7 +83,7 @@ const Home = () => {
           <h2 className="lg:mt-0 mt-4 lg:text-[28px] text-[#f22b0a] text-[35px] py-6 font-[700]">
             Sales Enablement and Fractional Consulting
           </h2>
-          <p className="lg:text-[22px]">
+          <p className="lg:text-[20px]">
             Xogen offers fractional CRO or CDO services, extending the sales
             team for companies lacking internal capabilities and providing
             leadership to ensure sales success.
@@ -101,10 +99,12 @@ const Home = () => {
             />
           </div>
           <h2 className="lg:mt-0 mt-4 lg:text-[30px] text-[#f22b0a] text-[35px] py-6 font-[700]">
-          Data and AI Implementation Services
+            Data and AI Implementation Services
           </h2>
-          <p className="lg:text-[22px]">
-          Xogen provides consultative services in data and AI, helping organizations implement and manage advanced data solutions effectively.
+          <p className="lg:text-[20px]">
+            Xogen provides consultative services in data and AI, helping
+            organizations implement and manage advanced data solutions
+            effectively.
           </p>
         </div>
 
@@ -119,7 +119,7 @@ const Home = () => {
           <h2 className="lg:mt-0 mt-4 lg:text-[30px] text-[#f22b0a] text-[35px] py-6 font-[700]">
             AI-Powered Security
           </h2>
-          <p className="lg:text-[22px]">
+          <p className="lg:text-[20px]">
             Safeguard your business with AI that detects and prevents threats,
             ensuring transparency and protection.
           </p>
@@ -130,18 +130,18 @@ const Home = () => {
       <div className="flex justify-center items-center flex-wrap py-24">
         <div className="h-[362px] bg-[#eee] rounded-[10px] w-full">
           <img
-            src={xgBanner}
+            src={xgBanner1}
             alt="Banner"
             className="w-full h-full rounded-[10px] object-cover object-top"
           />
         </div>
         <div className="flex items-center flex-wrap justify-center gap-2 py-6">
-          <h2 className="lg:mt-0 mt-4 lg:text-[62px] text-[31px] font-[600] lg:leading-[105.48px]">
-            Simplifying
+          <h2 className="lg:mt-0 mt-4 lg:text-[62px] text-[31px] font-[600] text-[#f22b0a] lg:leading-[105.48px]">
+            Simplifying Innovation and Growth
           </h2>
-          <h2 className="lg:mt-0 mt-4 lg:text-[62px] text-[31px] lg:leading-[105.48px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent">
+          {/* <h2 className="lg:mt-0 mt-4 lg:text-[62px] text-[31px] lg:leading-[105.48px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent">
             Innovation and Growth
-          </h2>
+          </h2> */}
         </div>
         <p className="lg:text-[25px] w-[1187px] text-center">
           At Xogen, we believe AI should be accessible, adaptable, and
@@ -220,12 +220,12 @@ const Home = () => {
       <div className="flex flex-wrap  lg:p-[24px] justify-between items-center">
         <div className="lg:w-[40%]">
           <div className="flex flex-wrap gap-2">
-            <h2 className="lg:mt-0 md:text-[50px] text-[30px] font-[600] lg:leading-[105.48px]">
-              Discover
+            <h2 className="lg:mt-0 md:text-[50px] text-[30px] font-[600] text-[#f22b0a] lg:leading-[105.48px]">
+              Discover Real Impact
             </h2>
-            <h2 className="lg:mt-0 md:text-[50px] text-[30px] lg:leading-[105.48px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent">
+            {/* <h2 className="lg:mt-0 md:text-[50px] text-[30px] lg:leading-[105.48px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent">
               Real Impact
-            </h2>
+            </h2> */}
           </div>
           <p className="lg:text-[25px]">
             Explore detailed use cases and learn how our AI solutions have made
@@ -233,7 +233,7 @@ const Home = () => {
             inspired!
           </p>
 
-          <div className="w-[242.73px] mt-6 bg-[#f22b0a] lg:text-[25px] text-[20px] h-[74px] rounded-[5.91px]">
+          <div className="w-[242.73px] mt-6 bg-[#f22b0a] lg:text-[18px] text-[14px] h-[74px] rounded-[5.91px]">
             <PrimaryButton label={"Read our use cases"} />
           </div>
         </div>

@@ -16,7 +16,7 @@ const Footer = () => {
             <div className="lg:w-[491px] h-full border-[0.35px] border-[#00000050] rounded-l-[5.91px]">
               <input
                 type="text"
-                className="border-none outline-none h-full w-full px-4 lg:text-[20px] text-[14px] bg-transparent"
+                className="border-none outline-none h-full w-full px-4 lg:text-[18px] text-[14px] bg-transparent"
                 placeholder="Enter your email to subscribe"
               />
             </div>
@@ -31,7 +31,7 @@ const Footer = () => {
         <div className="flex flex-wrap px-6 lg:px-0 gap-5  justify-between">
           <div className="w-[430px]">
             <img src={xgLogo2} alt="" className="h-[119.34px]" />
-            <div className="lg:px-4 md:text-[20px] font-[400] space-y-2">
+            <div className="lg:px-4 md:text-[18px] font-[500] space-y-2">
               <li>Bertie Farm Court</li>
               <li>Laytonsville</li>
               <li>MD 20882</li>
@@ -55,7 +55,7 @@ const Footer = () => {
               <h2 className="text-[25px] font-[500]">Overview </h2>
               <img src={xgArrow} alt="" className="w-[24px] h-[34px]" />
             </span>
-            <div className="lg:text-[20px] space-y-4 font-[400] mt-4">
+            <div className="lg:text-[18px] space-y-4 font-[500] mt-4">
               <li>About Xogen</li>
               <li>What we do</li>
               <li>Use Cases</li>
@@ -68,7 +68,7 @@ const Footer = () => {
               <h2 className="text-[25px] font-[500]">Documentation </h2>
               <img src={xgArrow} alt="" className="w-[24px] h-[34px]" />
             </span>
-            <div className="lg:text-[20px] space-y-4 font-[400] mt-4">
+            <div className="lg:text-[18px] space-y-4 font-[500] mt-4">
               <li>Privacy</li>
               <li>Cookies</li>
               <li>Terms & Conditions</li>

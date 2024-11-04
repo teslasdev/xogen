@@ -12,6 +12,9 @@ import {
   xgIntegrity,
   xgRobotSvg,
   xgStory,
+  xgteam1,
+  xgteam2,
+  xgteam3,
 } from "../assets";
 
 const About = () => {
@@ -20,11 +23,11 @@ const About = () => {
       <div className="w-full flex flex-col lg:min-h-[300px] justify-center items-center">
         <img src={xgBanner3} alt="Banner" className="lg:h-[103px] w-full" />
         <div className="lg:w-[900px] text-center mt-6 flex flex-col justify-center items-center">
-          <h3 className="lg:text-[90px] text-[45px] font-[400] leading-[105.48px]">
+          <h3 className="lg:text-[90px] text-[45px] text-[#f22b0a] font-[500]  leading-[105.48px]">
             About Us
           </h3>
 
-          <p className="font-[400] text-[#120024] lg:text-[24px] text-[20px]">
+          <p className="font-[400] text-[#120024] lg:text-[20px] text-[18px] mt-4">
             At Xogen, we’re passionate about creating AI solutions that empower
             businesses to thrive. Our mission is simple: to make AI accessible
             and impactful for companies of all sizes. Through innovation,
@@ -41,10 +44,8 @@ const About = () => {
       <div className="flex flex-wrap lg:p-[24px] justify-between">
         <div className="lg:w-[40%] w-full">
           <div className="flex gap-2">
-            <h2 className="text-[50px] font-[600] leading-[105.48px]">Our</h2>
-            <h2 className="text-[50px] leading-[105.48px] italic bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent">
-              Story
-            </h2>
+            <h2 className="text-[50px] font-[600] leading-[105.48px] text-[#f22b0a]">Our Story</h2>
+            
           </div>
           <p className="text-[20px]">
             Xogen.ai is a minority-owned business specializing in technical and
@@ -71,11 +72,11 @@ const About = () => {
 
       <div className="w-full flex py-12 justify-center items-center">
         <div className=" text-center mt-6 flex flex-col justify-center items-center">
-          <h3 className="lg:text-[90px] text-[45px] font-[400] leading-[105.48px]">
+          <h3 className="lg:text-[90px] text-[#f22b0a] text-[45px] font-[400] leading-[105.48px]">
             Our specialty
           </h3>
 
-          <p className="font-[400] mt-3 text-[#120024] lg:text-[24px] text-[20px]">
+          <p className="font-[400] mt-3 text-[#120024] lg:text-[20px] text-[16px]">
             At Xogen, we offer cutting-edge AI services that simplify complexity
             and drive results. From automating repetitive tasks to providing
             deep data insights, our solutions are designed to help businesses
@@ -120,46 +121,52 @@ const About = () => {
         </div>
       </div>
 
-      {/* Team
+      {/* Team */}
       <div className="lg:py-24 py-12">
-        <h3 className="lg:text-[45px] text-[23px] font-[700]">Our Team</h3>
+        <h3 className="lg:text-[45px] text-[23px] text-[#f22b0a] font-[700]">Our Team</h3>
         <div className="w-full flex flex-wrap justify-between mt-4 gap-6">
-          <div className="lg:w-[386px]">
-            <div className="h-[320px] bg-[#eee] rounded-[10px] w-full"></div>
-            <h2 className="lg:text-[40px] text-[20px] lg:mt-0 mt-4 font-[700]">
-              David O. – CEO
+          <div className="lg:w-[356px]">
+            <div className="h-[320px] bg-[#eee] rounded-[10px] w-full">
+              <img src={xgteam1} alt="" className="w-full h-full" />
+            </div>
+            <h2 className="lg:text-[30px] text-[20px] lg:mt-0 mt-6 font-[700]">
+              Jimmy O. – CEO
             </h2>
-            <p className="text-[20px]">
+            {/* <p className="text-[20px]">
               David leads Xogen with 15+ years of AI and tech experience. His
               focus on innovation and business strategy drives the company’s
               growth and success.
-            </p>
+            </p> */}
           </div>
-          <div className="lg:w-[386px]">
-            <div className="h-[320px] bg-[#eee] rounded-[10px] w-full"></div>
-            <h2 className="lg:text-[40px] text-[20px] lg:mt-0 mt-4 font-[700]">
-              Amina B. – CTO
+          <div className="lg:w-[356px]">
+            <div className="h-[320px] bg-[#eee] rounded-[10px] w-full">
+            <img src={xgteam2} alt="" className="w-full h-full" />
+            </div>
+            <h2 className="lg:text-[30px] text-[20px] lg:mt-0 mt-4 font-[700]">
+              Lanre B. – CTO
             </h2>
-            <p className="text-[20px]">
+            {/* <p className="text-[20px]">
               Amina oversees Xogen’s AI technology, transforming complex
               challenges into scalable, user-friendly solutions. She’s a leader
               in AI development and data science.
-            </p>
+            </p> */}
           </div>
 
-          <div className="lg:w-[386px]">
-            <div className="h-[320px] bg-[#eee] rounded-[10px] w-full"></div>
-            <h2 className="lg:text-[40px] text-[20px] lg:mt-0 mt-4 font-[700]">
-              Chike N. – Product Lead
+          <div className="lg:w-[356px]">
+            <div className="h-[320px] bg-[#eee] rounded-[10px] w-full">
+            <img src={xgteam3} alt="" className="w-full h-full" />
+            </div>
+            <h2 className="lg:text-[30px] text-[20px] lg:mt-0 mt-4 font-[700]">
+              Fiyin N. – PM
             </h2>
-            <p className="text-[20px]">
+            {/* <p className="text-[20px]">
               Chike ensures Xogen’s AI products meet business needs. With 10+
               years in product management, he crafts solutions that bring real
               value to clients.
-            </p>
+            </p> */}
           </div>
         </div>
-      </div> */}
+      </div>
 
       {/* Our values */}
       {/* <div className="w-full flex py-12 justify-center items-center">

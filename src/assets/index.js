@@ -1,11 +1,12 @@
 import xgLogo from "./xogen_logo.svg";
 import xgLogo2 from "./xogen_logo2.svg";
 import xgBanner from "./homepage.jpg";
+import xgBanner1 from "./homepage2.jpg";
 import xgAi from "./aidevelopment.jpg";
 import xgAuto from "./aidrivenautomation.jpg";
-import xgCustomer1 from "./customer1.jpg";
-import xgCustomer3 from "./customer3.jpg";
-import xgCustomer2 from "./customer2.jpg";
+import xgteam1 from "./team1.jpg";
+import xgteam3 from "./team3.jpg";
+import xgteam2 from "./team2.jpg";
 import xgSecurity from "./aisecurity.jpg";
 import xgAnalystics from "./dataanalytics.jpg";
 import xgBanner2 from "./xg_banner2.png";
@@ -56,7 +57,8 @@ export {
   xgAuto,
   xgSecurity,
   xgAnalystics,
-  xgCustomer1,
-  xgCustomer2,
-  xgCustomer3
+  xgteam1,
+  xgteam2,
+  xgteam3,
+  xgBanner1
 };

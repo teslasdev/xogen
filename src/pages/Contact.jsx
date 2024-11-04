@@ -36,14 +36,14 @@ const Contact = () => {
   ];
   return (
     <div className="px-6 lg:px-0 max-w-[1440px] mx-auto">
-    <div className="w-full flex flex-col lg:min-h-[700px] justify-center items-center">
+    <div className="w-full flex flex-col lg:min-h-[300px] justify-center items-center">
       <img src={xgBanner3} alt="Banner" className="lg:h-[103px] w-full" />
       <div className="lg:w-[950px] text-center mt-6 flex flex-col justify-center items-center">
-        <h3 className="lg:text-[95px] text-[45px] font-[400] leading-[105.48px]">
+        <h3 className="lg:text-[95px] text-[45px] text-[#f22b0a] font-[500]  leading-[105.48px]">
           Contact Us
         </h3>
 
-        <p className="font-[400] text-[#120024] lg:text-[24px]">
+        <p className="font-[400] text-[#120024] lg:text-[20px] mt-4">
             We’re here to help you explore the power of AI and how it can
             transform your business. Whether you have questions about our
             solutions, need assistance, or want to discuss how we can tailor our
