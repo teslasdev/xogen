@@ -235,7 +235,7 @@ const Home = () => {
             inspired!
           </p>
 
-          <div className="w-[242.73px] mt-6 bg-[#f22b0a] lg:text-[18px] text-[14px] h-[74px] rounded-[5.91px]">
+          <div className="lg:w-[242.73px] w-[200px] mt-6 bg-[#f22b0a] lg:text-[18px] text-[14px] lg:h-[74px] h-[56px] rounded-[5.91px]">
             <PrimaryButton label={"Read our use cases"} />
           </div>
         </div>

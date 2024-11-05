@@ -30,8 +30,8 @@ const Footer = () => {
       <div>
         <div className="flex flex-wrap px-6 lg:px-0 gap-5  justify-between">
           <div className="w-[430px]">
-            <img src={xgLogo2} alt="" className="h-[119.34px]" />
-            <div className="lg:px-4 md:text-[18px] font-[500] space-y-2">
+            <img src={xgLogo2} alt="" className="lg:h-[119.34px] h-[90px]" />
+            <div className="lg:px-4 md:text-[18px] text-[14px] font-[600] space-y-2">
               <li>Bertie Farm Court</li>
               <li>Laytonsville</li>
               <li>MD 20882</li>
@@ -39,23 +39,23 @@ const Footer = () => {
 
             <div className="flex gap-4 mt-6 lg:px-4">
               <div>
-                <img src={xgLink} alt="" className="h-[59px] w-[67px]" />
+                <img src={xgLink} alt="" className="md:h-[59px] h-[40px] w-[40px] md:w-[67px]" />
               </div>
               <div>
-                <img src={xgInsta} alt="" className="h-[59px] w-[67px]" />
+                <img src={xgInsta} alt="" className="md:h-[59px] h-[40px] w-[40px] md:w-[67px]" />
               </div>
               <div>
-                <img src={xgFace} alt="" className="h-[59px] w-[67px]" />
+                <img src={xgFace} alt="" className="md:h-[59px] h-[40px] w-[40px] md:w-[67px]" />
               </div>
             </div>
           </div>
 
-          <div className="mt-4">
+          <div className="mt-4 w-full md:w-fit">
             <span className="flex gap-3 items-center">
               <h2 className="text-[20px] font-[700]">Overview </h2>
-              <img src={xgArrow} alt="" className="w-[20px] h-[24px]" />
+              <img src={xgArrow} alt="" className="w-[15px] h-[15px]" />
             </span>
-            <div className="lg:text-[18px] space-y-4 font-[500] mt-4">
+            <div className="lg:text-[18px] text-[14px] space-y-4 font-[600] mt-4">
               <li>About Xogen</li>
               <li>What we do</li>
               <li>Use Cases</li>
@@ -65,10 +65,10 @@ const Footer = () => {
 
           <div className="mt-4">
             <span className="flex gap-3 items-center">
-              <h2 className="text-[20px] font-[700]">Documentation </h2>
-              <img src={xgArrow} alt="" className="w-[20px] h-[24px]" />
+              <h2 className="md:text-[20px] text-[18px] font-[700]">Documentation </h2>
+              <img src={xgArrow} alt="" className="w-[15px] h-[15px]" />
             </span>
-            <div className="lg:text-[18px] space-y-4 font-[500] mt-4">
+            <div className="lg:text-[18px] space-y-4 text-[14px] font-[600] mt-4">
               <li>Privacy</li>
               <li>Cookies</li>
               <li>Terms & Conditions</li>
