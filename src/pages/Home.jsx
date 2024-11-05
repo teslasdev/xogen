@@ -140,19 +140,19 @@ const Home = () => {
         {/* <div className="flex items-center flex-wrap justify-center gap-2 py-6" data-aos="slide-up">
           <h2 className="lg:mt-0 mt-4 lg:text-[62px] text-[20px] font-[800] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent text-[#f22b0a] lg:leading-[105.48px]">
             Simplifying Innovation and Growth
-          </h2>
+          </h2> */}
           {/* <h2 className="lg:mt-0 mt-4 lg:text-[62px] text-[31px] lg:leading-[105.48px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent">
             Innovation and Growth
           </h2> */}
         </div>
-        <p className="lg:text-[25px] w-[1187px] md:text-center">
+        {/* <p className="lg:text-[25px] w-[1187px] md:text-center">
           At Xogen, we believe AI should be accessible, adaptable, and
           affordable. From start-ups to enterprises, our AI solutions help
           businesses innovate faster, reduce operational costs, and create
           better customer experiences. We take the complexity out of AI, so you
           can focus on what matters.
         </p> */}
-      </div>
+      {/* </div> */}
 
       {/* <div className="py-24">
         <h3 className="text-[45px] font-[700]">What our clients are saying</h3>
