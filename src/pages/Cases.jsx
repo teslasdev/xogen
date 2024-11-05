@@ -7,7 +7,7 @@ const Cases = () => {
       <div className="w-full flex flex-col lg:min-h-[300px] justify-center items-center">
         <img src={xgBanner3} alt="Banner" className="lg:h-[103px] w-full" />
         <div className="lg:w-[900px] text-center mt-6 flex flex-col justify-center items-center">
-          <h3 className="lg:text-[90px] text-[45px] text-[#f22b0a] font-[500] leading-[105.48px]">
+          <h3 className="lg:text-[90px] text-[35px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent text-[#f22b0a] font-[500] leading-[105.48px]">
             Case Studies
           </h3>
 
@@ -26,13 +26,13 @@ const Cases = () => {
 
       <div className="py-24">
         <div className="flex flex-wrap gap-2">
-          <h2 className="lg:text-[50px] text-[30px] text-[#f22b0a] font-[600] lg:leading-[105.48px]">
+          <h2 className="lg:text-[50px] text-[30px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent text-[#f22b0a] font-[600] lg:leading-[105.48px]">
             Success Stories Using F.A.N.T.A.S.T.I.C.
           </h2>
         </div>
 
         <div className="mt-6 space-y-3">
-          <h2 className="lg:text-[25px] text-[30px] text-[#f22b0a] font-[500] lg:leading-[105.48px]">
+          <h2 className="lg:text-[25px] text-[30px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent text-[#f22b0a] font-[500] lg:leading-[105.48px]">
             Case Study 1: Financial Services Firm
           </h2>
           <p className="text-[18px] leading-[40px]">
@@ -60,7 +60,7 @@ const Cases = () => {
         </div>
 
         <div className="mt-6 space-y-3">
-          <h2 className="lg:text-[30px] text-[20px] text-[#f22b0a] font-[500] lg:leading-[105.48px]">
+          <h2 className="lg:text-[30px] text-[20px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent text-[#f22b0a] font-[500] lg:leading-[105.48px]">
             Case Study 2: Healthcare Provider
           </h2>
           <p className="text-[18px] leading-[40px]">
