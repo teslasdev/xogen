@@ -13,26 +13,26 @@ import { PrimaryButton } from "./components/button";
 const Home = () => {
   return (
     <div className="px-6 lg:px-0 md:max-w-[1440px] mx-auto">
-      <div className="w-full md:flex-row-reverse flex-col-reverse flex  lg:min-h-[600px] justify-between items-center">
+      <div className="w-full md:flex-row-reverse flex-col-reverse flex  min-h-[600px]  justify-between items-center">
         <img
           src={xgBanner}
           alt="Banner"
           className="rounded-[10px] mt-6 md:mt-0 lg:w-[530px]"
         />
         <div className="lg:w-[800px] flex flex-col justify-start items-start">
-          <h3 className="lg:text-[90px] md:text-[40px] text-[30px] font-[600]">
-            Leading AI Solutions for
+          <h3 className="lg:text-[50px] md:text-[40px] text-[20px] font-[700]">
+            Leading AI Enablement and consulting Solutions for{" "}
+            <span className="bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent">
+              Exceptional Results
+            </span>
           </h3>
-          <h2 className="lg:mt-0 lg:text-[40px] md:text-[60px] text-[20px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent">
-            Exceptional Results
-          </h2>
 
           <p className="font-[400] text-[#120024] mt-4 lg:text-[18px] text-[14px]">
             Xogen delivers world-class AI services to transform your business.
             From automation to insights, our cutting-edge technology drives
             innovation and growth like never before.
           </p>
-          <div className="w-[302.73px] mt-6 bg-[#f22b0a] lg:text-[18px] lg:h-[74px] h-[60px] rounded-[5.91px]">
+          <div className="lg:w-[302.73px] px-4 mt-6 bg-[#f22b0a] lg:text-[18px] text-[14px] lg:h-[74px] h-[50px] rounded-[5.91px]">
             <PrimaryButton label={"Request a Demo now"} />
           </div>
         </div>
@@ -51,7 +51,7 @@ const Home = () => {
         </div>
       </div> */}
 
-      <hr className="mt-12"/>
+      <hr className="mt-12" />
 
       {/* Features */}
       <div className="flex justify-between gap-12 flex-wrap py-12">
