@@ -23,7 +23,7 @@ const About = () => {
       <div className="w-full flex flex-col lg:min-h-[300px] justify-center items-center">
         <img src={xgBanner3} alt="Banner" className="lg:h-[103px] w-full" />
         <div className="lg:w-[900px] text-center mt-6 flex flex-col justify-center items-center">
-          <h3 className="lg:text-[90px] text-[45px] text-[#f22b0a] font-[500]  leading-[105.48px]">
+          <h3 className="lg:text-[90px] text-[35px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent text-[#f22b0a] font-[500]  leading-[105.48px]">
             About Us
           </h3>
 
@@ -44,7 +44,7 @@ const About = () => {
       <div className="flex flex-wrap lg:p-[24px] justify-between">
         <div className="lg:w-[40%] w-full">
           <div className="flex gap-2">
-            <h2 className="text-[50px] font-[600] leading-[105.48px] text-[#f22b0a]">Our Story</h2>
+            <h2 className="text-[50px] font-[600] leading-[105.48px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent text-[#f22b0a]">Our Story</h2>
             
           </div>
           <p className="text-[20px]">
@@ -72,7 +72,7 @@ const About = () => {
 
       <div className="w-full flex py-12 justify-center items-center">
         <div className=" text-center mt-6 flex flex-col justify-center items-center">
-          <h3 className="lg:text-[90px] text-[#f22b0a] text-[45px] font-[400] leading-[105.48px]">
+          <h3 className="lg:text-[90px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent text-[#f22b0a] text-[35px] font-[400] leading-[105.48px]">
             Our specialty
           </h3>
 
@@ -123,7 +123,7 @@ const About = () => {
 
       {/* Team */}
       <div className="lg:py-24 py-12">
-        <h3 className="lg:text-[45px] text-[23px] text-[#f22b0a] font-[700]">Our Team</h3>
+        <h3 className="lg:text-[45px] text-[23px] text-[#f22b0a] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent font-[700]">Our Team</h3>
         <div className="w-full flex flex-wrap justify-between mt-4 gap-6">
           <div className="lg:w-[356px]">
             <div className="h-[320px] bg-[#eee] rounded-[10px] w-full">
