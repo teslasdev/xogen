@@ -13,21 +13,21 @@ import { PrimaryButton } from "./components/button";
 const Home = () => {
   return (
     <div className="px-6 lg:px-0 md:max-w-[1440px] mx-auto">
-      <div className="w-full md:flex-row-reverse flex-col-reverse flex  min-h-[600px]  justify-between items-center">
+      <div className="w-full lg:flex-row-reverse flex-col-reverse flex  min-h-[600px]  justify-center gap-6 items-center">
         <img
           src={xgBanner}
           alt="Banner"
           className="rounded-[10px] mt-6 md:mt-0 lg:w-[530px]"
         />
-        <div className="lg:w-[800px] flex flex-col justify-start items-start">
-          <h3 className="lg:text-[50px] md:text-[40px] text-[20px] font-[700]">
+        <div className="lg:w-[800px] flex flex-col justify-center items-start">
+          <h3 className="lg:text-[50px] md:text-[40px] text-[20px] font-[700]" data-aos="slide-up">
             Leading AI Enablement and consulting Solutions for{" "}
             <span className="bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent">
               Exceptional Results
             </span>
           </h3>
 
-          <p className="font-[400] text-[#120024] mt-4 lg:text-[18px] text-[14px]">
+          <p className="font-[400] text-[#120024] mt-4 lg:text-[18px] text-[14px]" data-aos="fade-left">
             Xogen delivers world-class AI services to transform your business.
             From automation to insights, our cutting-edge technology drives
             innovation and growth like never before.
@@ -55,7 +55,7 @@ const Home = () => {
 
       {/* Features */}
       <div className="flex justify-between gap-12 flex-wrap py-12">
-        <div className="md:w-[45%] w-full">
+        <div className="md:w-[45%] w-full" data-aos="fade-right">
           <div className="lg:h-[288px] h-[180px] bg-[#eee] rounded-[10px] w-full">
             <img
               src={xgAuto}
@@ -63,7 +63,7 @@ const Home = () => {
               className="w-full h-full rounded-[10px]"
             />
           </div>
-          <h2 className="lg:mt-0 mt-4 lg:text-[30px] text-[#f22b0a] text-[25px] md:py-6 py-3  font-[700]">
+          <h2 className="lg:mt-0 mt-4 lg:text-[30px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent text-[#f22b0a] text-[18px] md:py-6 py-3  font-[700]">
             Technical Sales Enablement
           </h2>
           <p className="lg:text-[20px]">
@@ -74,7 +74,7 @@ const Home = () => {
             success.
           </p>
         </div>
-        <div className="md:w-[45%] w-full">
+        <div className="md:w-[45%] w-full" data-aos="fade-right">
           <div className="lg:h-[288px] h-[180px] bg-[#eee] rounded-[10px] w-full">
             <img
               src={xgAnalystics}
@@ -82,7 +82,7 @@ const Home = () => {
               className="w-full h-full rounded-[10px]"
             />
           </div>
-          <h2 className="lg:mt-0 mt-4 lg:text-[30px] text-[#f22b0a] text-[25px] md:py-6 py-3  font-[700]">
+          <h2 className="lg:mt-0 mt-4 lg:text-[30px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent text-[#f22b0a] text-[20px] md:py-6 py-3  font-[700]">
             Sales Enablement and Fractional Consulting
           </h2>
           <p className="lg:text-[20px]">
@@ -92,7 +92,7 @@ const Home = () => {
           </p>
         </div>
 
-        <div className="md:w-[45%] w-full">
+        <div className="md:w-[45%] w-full" data-aos="fade-right">
           <div className="lg:h-[288px] h-[180px] bg-[#eee] rounded-[10px] w-full">
             <img
               src={xgAi}
@@ -100,7 +100,7 @@ const Home = () => {
               className="w-full h-full rounded-[10px]"
             />
           </div>
-          <h2 className="lg:mt-0 mt-4 lg:text-[30px] text-[#f22b0a] text-[25px] md:py-6 py-3  font-[700]">
+          <h2 className="lg:mt-0 mt-4 lg:text-[30px] text-[#f22b0a] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent text-[20px] md:py-6 py-3  font-[700]">
             Data and AI Implementation Services
           </h2>
           <p className="lg:text-[20px]">
@@ -110,7 +110,7 @@ const Home = () => {
           </p>
         </div>
 
-        <div className="md:w-[45%] w-full">
+        <div className="md:w-[45%] w-full" data-aos="fade-right">
           <div className="lg:h-[288px] h-[180px] bg-[#eee] rounded-[10px] w-full">
             <img
               src={xgSecurity}
@@ -118,7 +118,7 @@ const Home = () => {
               className="w-full h-full rounded-[10px]"
             />
           </div>
-          <h2 className="lg:mt-0 mt-4 lg:text-[30px] text-[#f22b0a] text-[35px] py-6 font-[700]">
+          <h2 className="lg:mt-0 mt-4 lg:text-[30px] text-[#f22b0a] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent text-[20px] md:py-6 py-2 font-[700]">
             AI-Powered Security
           </h2>
           <p className="lg:text-[20px]">
@@ -137,15 +137,15 @@ const Home = () => {
             className="w-full h-full rounded-[10px] object-cover object-top"
           />
         </div>
-        <div className="flex items-center flex-wrap justify-center gap-2 py-6">
-          <h2 className="lg:mt-0 mt-4 lg:text-[62px] text-[31px] font-[600] text-[#f22b0a] lg:leading-[105.48px]">
+        <div className="flex items-center flex-wrap justify-center gap-2 py-6" data-aos="slide-up">
+          <h2 className="lg:mt-0 mt-4 lg:text-[62px] text-[20px] font-[800] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent text-[#f22b0a] lg:leading-[105.48px]">
             Simplifying Innovation and Growth
           </h2>
           {/* <h2 className="lg:mt-0 mt-4 lg:text-[62px] text-[31px] lg:leading-[105.48px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent">
             Innovation and Growth
           </h2> */}
         </div>
-        <p className="lg:text-[25px] w-[1187px] text-center">
+        <p className="lg:text-[25px] w-[1187px] md:text-center">
           At Xogen, we believe AI should be accessible, adaptable, and
           affordable. From start-ups to enterprises, our AI solutions help
           businesses innovate faster, reduce operational costs, and create
@@ -219,10 +219,10 @@ const Home = () => {
       </div> */}
 
       {/* Discovery */}
-      <div className="flex flex-wrap  lg:p-[24px] justify-between items-center">
+      <div className="flex flex-wrap  lg:p-[24px] justify-between items-center" data-aos="slide-up">
         <div className="lg:w-[40%]">
           <div className="flex flex-wrap gap-2">
-            <h2 className="lg:mt-0 md:text-[50px] text-[30px] font-[600] text-[#f22b0a] lg:leading-[105.48px]">
+            <h2 className="lg:mt-0 md:text-[50px] text-[20px] font-[800] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent text-[#f22b0a] lg:leading-[105.48px]">
               Discover Real Impact
             </h2>
             {/* <h2 className="lg:mt-0 md:text-[50px] text-[30px] lg:leading-[105.48px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent">

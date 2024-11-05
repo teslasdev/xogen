@@ -6,8 +6,17 @@ import About from "./pages/About";
 import Whatwedo from "./pages/Whatwedo";
 import Cases from "./pages/Cases";
 import Contact from "./pages/Contact";
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  }, []);
   return (
     <Router>
       <Routes>
