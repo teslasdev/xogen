@@ -137,7 +137,7 @@ const Home = () => {
             className="w-full h-full rounded-[10px] object-cover object-top"
           />
         </div>
-        <div className="flex items-center flex-wrap justify-center gap-2 py-6" data-aos="slide-up">
+        {/* <div className="flex items-center flex-wrap justify-center gap-2 py-6" data-aos="slide-up">
           <h2 className="lg:mt-0 mt-4 lg:text-[62px] text-[20px] font-[800] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent text-[#f22b0a] lg:leading-[105.48px]">
             Simplifying Innovation and Growth
           </h2>
@@ -151,7 +151,7 @@ const Home = () => {
           businesses innovate faster, reduce operational costs, and create
           better customer experiences. We take the complexity out of AI, so you
           can focus on what matters.
-        </p>
+        </p> */}
       </div>
 
       {/* <div className="py-24">
@@ -222,7 +222,7 @@ const Home = () => {
       <div className="flex flex-wrap  lg:p-[24px] justify-between items-center" data-aos="slide-up">
         <div className="lg:w-[40%]">
           <div className="flex flex-wrap gap-2">
-            <h2 className="lg:mt-0 md:text-[50px] text-[20px] font-[800] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent text-[#f22b0a] lg:leading-[105.48px]">
+            <h2 className="lg:mt-0 md:text-[50px] text-[20px] font-[800] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent text-[#f22b0a]">
               Discover Real Impact
             </h2>
             {/* <h2 className="lg:mt-0 md:text-[50px] text-[30px] lg:leading-[105.48px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent">
