@@ -16,6 +16,7 @@ import {
   xgteam2,
   xgteam3,
 } from "../assets";
+import { PrimaryButton } from "./components/button";
 
 const About = () => {
   return (
@@ -44,8 +45,9 @@ const About = () => {
       <div className="flex flex-wrap lg:p-[24px] justify-between">
         <div className="lg:w-[40%] w-full">
           <div className="flex gap-2">
-            <h2 className="text-[50px] font-[600] leading-[105.48px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent text-[#f22b0a]">Our Story</h2>
-            
+            <h2 className="text-[50px] font-[600] leading-[105.48px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent text-[#f22b0a]">
+              Our Story
+            </h2>
           </div>
           <p className="text-[20px]">
             Xogen.ai is a minority-owned business specializing in technical and
@@ -87,28 +89,43 @@ const About = () => {
 
       <div className="flex justify-between items-center w-full mt-6">
         <div className="text-center flex flex-wrap gap-6 justify-between items-center w-full">
-          <div className="md:w-[30%] w-full">
+          <div className="md:w-[25%] w-full shadow-md bg-white h-[300px] flex flex-col justify-center items-center">
             <img src={xgDrivenSvg} alt="Banner" className="h-[103px] w-full" />
-            <p className="font-[500] mt-2 text-[20px]">Technical Sales Framework - F.A.N.T.A.S.T.I.C</p>
+            <p className="font-[500] mt-2 text-[20px]">
+              Technical Sales Framework
+            </p>
             {/* <p className="md:w-[252px]">
               Boost efficiency by automating everyday processes
             </p> */}
+            <div className="w-[141.92px] flex bg-[#f22b0a] text-[16px]  mt-6 lg:h-[63.37px] h-[50px] rounded-[5.91px]">
+              <PrimaryButton label={"Learn more"} />
+            </div>
           </div>
 
-          <div className="md:w-[30%] w-full">
+          <div className="md:w-[25%] w-full shadow-md bg-white h-[300px] flex flex-col justify-center items-center">
             <img src={xgAdvanceSvg} alt="Banner" className="h-[103px] w-full" />
-            <p className="font-[500] mt-2 text-[20px]">Fractional Sales Consulting</p>
+            <p className="font-[500] mt-2 text-[20px]">
+              Fractional Sales Consulting
+            </p>
             {/* <p className="md:w-[252px]">
               Unlock the power of your data for smarter decisions.
             </p> */}
+            <div className="w-[141.92px] flex bg-[#f22b0a] text-[16px]  mt-6 lg:h-[63.37px] h-[50px] rounded-[5.91px]">
+              <PrimaryButton label={"Learn more"} />
+            </div>
           </div>
 
-          <div className="md:w-[30%] w-full">
+          <div className="md:w-[25%] w-full shadow-md bg-white h-[300px] flex flex-col justify-center items-center">
             <img src={xgCustomSvg} alt="Banner" className="h-[103px] w-full" />
-            <p className="font-[500] mt-2 text-[20px]">Data and AI Consulting</p>
+            <p className="font-[500] mt-2 text-[20px]">
+              Data and AI Consulting
+            </p>
             {/* <p className="md:w-[252px]">
               Tailored AI to meet your unique business needs.
             </p> */}
+            <div className="w-[141.92px] flex bg-[#f22b0a] text-[16px]  mt-6 lg:h-[63.37px] h-[50px] rounded-[5.91px]">
+              <PrimaryButton label={"Learn more"} />
+            </div>
           </div>
 
           {/* <div>
@@ -123,7 +140,9 @@ const About = () => {
 
       {/* Team */}
       <div className="lg:py-24 py-12">
-        <h3 className="lg:text-[45px] text-[23px] text-[#f22b0a] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent font-[700]">Our Team</h3>
+        <h3 className="lg:text-[45px] text-[23px] text-[#f22b0a] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent font-[700]">
+          Our Team
+        </h3>
         <div className="w-full flex flex-wrap justify-between mt-4 gap-6">
           <div className="lg:w-[356px]">
             <div className="h-[320px] bg-[#eee] rounded-[10px] w-full">
@@ -140,7 +159,7 @@ const About = () => {
           </div>
           <div className="lg:w-[356px]">
             <div className="h-[320px] bg-[#eee] rounded-[10px] w-full">
-            <img src={xgteam2} alt="" className="w-full h-full" />
+              <img src={xgteam2} alt="" className="w-full h-full" />
             </div>
             <h2 className="lg:text-[30px] text-[20px] lg:mt-0 mt-4 font-[700]">
               Lanre B. – CTO
@@ -154,7 +173,7 @@ const About = () => {
 
           <div className="lg:w-[356px]">
             <div className="h-[320px] bg-[#eee] rounded-[10px] w-full">
-            <img src={xgteam3} alt="" className="w-full h-full" />
+              <img src={xgteam3} alt="" className="w-full h-full" />
             </div>
             <h2 className="lg:text-[30px] text-[20px] lg:mt-0 mt-4 font-[700]">
               Fiyin N. – PM

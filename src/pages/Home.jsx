@@ -220,7 +220,7 @@ const Home = () => {
 
       {/* Discovery */}
       <div className="flex flex-wrap  lg:p-[24px] justify-between items-center" data-aos="slide-up">
-        <div className="lg:w-[40%]">
+        <div className="lg:w-[50%]">
           <div className="flex flex-wrap gap-2">
             <h2 className="lg:mt-0 md:text-[50px] text-[20px] font-[800] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent text-[#f22b0a]">
               Discover Real Impact

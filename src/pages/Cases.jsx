@@ -32,7 +32,7 @@ const Cases = () => {
         </div>
 
         <div className="mt-6 space-y-3">
-          <h2 className="lg:text-[25px] text-[30px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent text-[#f22b0a] font-[500] lg:leading-[105.48px]">
+          <h2 className="lg:text-[25px] text-[18px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent text-[#f22b0a] font-[500] lg:leading-[105.48px]">
             Case Study 1: Financial Services Firm
           </h2>
           <p className="text-[18px] leading-[40px]">
@@ -60,7 +60,7 @@ const Cases = () => {
         </div>
 
         <div className="mt-6 space-y-3">
-          <h2 className="lg:text-[30px] text-[20px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent text-[#f22b0a] font-[500] lg:leading-[105.48px]">
+          <h2 className="lg:text-[30px] text-[18px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent text-[#f22b0a] font-[500] lg:leading-[105.48px]">
             Case Study 2: Healthcare Provider
           </h2>
           <p className="text-[18px] leading-[40px]">
