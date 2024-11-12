@@ -35,8 +35,8 @@ const Contact = () => {
     },
   ];
   return (
-    <div className="px-6 lg:px-0 max-w-[1440px] mx-auto">
-    <div className="w-full flex flex-col lg:min-h-[300px] justify-center items-center">
+    <div className="px-6 max-w-[1440px] mx-auto">
+    <div className="w-full flex flex-col lg:min-h-[400px] justify-center items-center">
       <img src={xgBanner3} alt="Banner" className="lg:h-[103px] w-full" />
       <div className="lg:w-[950px] text-center mt-6 flex flex-col justify-center items-center">
         <h3 className="lg:text-[95px] text-[35px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent text-[#f22b0a] font-[500]  leading-[105.48px]">

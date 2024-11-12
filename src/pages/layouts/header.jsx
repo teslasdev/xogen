@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div className="md:h-[70px] h-[100px] flex justify-center items-start">
       <div className="lg:h-[78.81px]  h-[70px] fixed z-50 w-full bg-[#0B0202]">
-        <div className="w-full h-full max-w-[1440px] mx-auto flex justify-between items-center md:px-0 px-4">
+        <div className="w-full h-full max-w-[1440px] mx-auto flex justify-between items-center px-6">
           <Link to={"/"}>
             <img
               src={xgLogo}

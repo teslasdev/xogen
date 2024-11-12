@@ -3,8 +3,8 @@ import { xgBanner3, xgSttream, xgTailored, xgUnclock } from "../assets";
 
 const Whatwedo = () => {
   return (
-    <div className="px-6 lg:px-0 max-w-[1440px] mx-auto">
-      <div className="w-full flex flex-col lg:min-h-[300px] justify-center items-center">
+    <div className="px-6 max-w-[1440px] mx-auto">
+      <div className="w-full flex flex-col lg:min-h-[400px] justify-center items-center">
         <img src={xgBanner3} alt="Banner" className="lg:h-[103px] w-full" />
         <div className="lg:w-[900px] text-center mt-6 flex flex-col justify-center items-center">
           <h3 className="lg:text-[90px] text-[35px] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent text-[#f22b0a] font-[600] leading-[105.48px]">
@@ -21,8 +21,8 @@ const Whatwedo = () => {
       <hr className="mt-6" />
 
       {/* Spec */}
-      <div className="flex lg:p-[20px] py-12 flex-row-reverse flex-wrap items-center justify-between" data-aos="fade-up">
-        <div className="w-[100%] lg:w-[40%]">
+      <div className="flex lg:p-[20px] py-12 flex-row-reverse flex-wrap items-center justify-around" data-aos="fade-up">
+        <div className="w-[100%] lg:w-[50%]">
           <div className="flex gap-2">
             <h2 className="md:text-[25px] text-[18px] text-[#f22b0a] bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent font-[700]">
               Technical Sales Engineering readiness
@@ -44,7 +44,7 @@ const Whatwedo = () => {
         </div>
       </div>
 
-      <div className="flex lg:p-[20px] py-12 flex-wrap items-center justify-between" data-aos="fade-left">
+      <div className="flex lg:p-[20px] py-12 flex-wrap items-center justify-around" data-aos="fade-left">
         <div className="w-[100%] lg:w-[40%]">
           <div className="flex gap-2">
             <h2 className="md:text-[25px] text-[18px] text-[#f22b0a] font-[700]">
@@ -68,8 +68,8 @@ const Whatwedo = () => {
         </div>
       </div>
 
-      <div className="flex lg:p-[20px] py-12 flex-row-reverse flex-wrap items-center justify-between" data-aos="fade-down">
-        <div className="w-[100%] lg:w-[40%]">
+      <div className="flex lg:p-[20px] py-12 flex-row-reverse flex-wrap items-center justify-around" data-aos="fade-down">
+        <div className="w-[100%] lg:w-[50%]">
           <div className="flex gap-2">
             <h2 className="md:text-[25px] text-[18px] text-[#f22b0a] font-[700] lg:leading-[105.48px]">
             General Information

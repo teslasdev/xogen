@@ -4,7 +4,7 @@ import { xgArrow, xgFace, xgInsta, xgLink, xgLogo2 } from "../../assets/index";
 
 const Footer = () => {
   return (
-    <div className="lg:max-w-[1440px] mx-auto">
+    <div className="max-w-[1440px] mx-auto">
       <div className="py-32 lg:px-12 px-6">
         <div className="border relative border-[#D5D5D5] lg:h-[500px] h-[200px] rounded-[14px] flex flex-col justify-center items-center">
           <p className="lg:text-[22px] text-[14px] lg:w-[765px] w-[90%] text-center">
@@ -28,7 +28,7 @@ const Footer = () => {
       </div>
 
       <div>
-        <div className="flex flex-wrap px-6 lg:px-0 gap-5  justify-between">
+        <div className="flex flex-wrap px-6 gap-5  justify-between">
           <div className="w-[430px]">
             <img src={xgLogo2} alt="" className="lg:h-[119.34px] h-[90px]" />
             <div className="lg:px-4 md:text-[18px] text-[14px] font-[600] space-y-2">

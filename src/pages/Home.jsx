@@ -12,7 +12,7 @@ import { PrimaryButton } from "./components/button";
 
 const Home = () => {
   return (
-    <div className="px-6 lg:px-0 md:max-w-[1440px] mx-auto">
+    <div className="px-6 md:max-w-[1440px] mx-auto">
       <div className="w-full lg:flex-row-reverse flex-col-reverse flex  min-h-[600px]  justify-center gap-6 items-center">
         <img
           src={xgBanner}
