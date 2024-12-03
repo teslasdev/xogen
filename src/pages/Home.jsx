@@ -20,17 +20,15 @@ const Home = () => {
           className="rounded-[10px] mt-6 md:mt-0 lg:w-[530px]"
         />
         <div className="lg:w-[800px] flex flex-col justify-center items-start">
-          <h3 className="lg:text-[50px] md:text-[40px] text-[20px] font-[700]" data-aos="slide-up">
-            Leading AI Enablement and consulting Solutions for{" "}
+          <h3 className="lg:text-[40px] md:text-[30px] text-[20px] font-[700]" data-aos="slide-up">
+            Leading AI Enablement and Consulting Solutions for{" "}
             <span className="bg-gradient-to-r from-[#f22b0a] to-[#140F18] bg-clip-text text-transparent">
               Exceptional Results
             </span>
           </h3>
 
           <p className="font-[400] text-[#120024] mt-4 lg:text-[18px] text-[14px]" data-aos="fade-left">
-            Xogen delivers world-class AI services to transform your business.
-            From automation to insights, our cutting-edge technology drives
-            innovation and growth like never before.
+          Xogen delivers world-class technical sales enablement and fractional CRO and CDO consulting services to accelerate, transform and improve sales and close velocity rates for SaaS companies.
           </p>
           <div className="lg:w-[302.73px] px-4 mt-6 bg-[#f22b0a] lg:text-[18px] text-[14px] lg:h-[74px] h-[50px] rounded-[5.91px]">
             <PrimaryButton label={"Request a Demo now"} />

@@ -29,12 +29,9 @@ const About = () => {
           </h3>
 
           <p className="font-[400] text-[#120024] lg:text-[20px] text-[18px] mt-4">
-            At Xogen, we’re passionate about creating AI solutions that empower
-            businesses to thrive. Our mission is simple: to make AI accessible
-            and impactful for companies of all sizes. Through innovation,
-            integrity, and a relentless focus on excellence, we’re here to
-            transform the way you work, helping you stay ahead in an
-            ever-changing world.
+          Xogen empowers organizations through Technical Sales Enablement, Fractional Leadership, and Data and AI Implementation Services. Leveraging its proprietary F.A.N.T.A.S.T.I.C. methodology, Xogen conducts focused workshops to align technical capabilities with business goals, enhancing demos and securing stakeholder buy-in.
+As a fractional CRO or CDO, Xogen provides strategic leadership and sales enablement to scale teams, drive revenue growth, and deliver measurable results.
+For data and AI initiatives, Xogen offers end-to-end consulting, from discovery to implementation, enabling businesses to effectively adopt and scale advanced solutions. Xogen bridges critical gaps, driving performance and positioning clients for sustained competitive advantage.
           </p>
         </div>
       </div>
