@@ -32,9 +32,9 @@ const Footer = () => {
           <div className="w-[430px]">
             <img src={xgLogo2} alt="" className="lg:h-[119.34px] h-[90px]" />
             <div className="lg:px-4 md:text-[18px] text-[14px] font-[600] space-y-2">
-              <li>Bertie Farm Court</li>
+              {/* <li>Bertie Farm Court</li>
               <li>Laytonsville</li>
-              <li>MD 20882</li>
+              <li>MD 20882</li> */}
             </div>
 
             <div className="flex gap-4 mt-6 lg:px-4">
